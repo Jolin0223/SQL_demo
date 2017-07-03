@@ -1,0 +1,12477 @@
+﻿$axure.loadCurrentPage({
+  "url":"任务管理.html",
+  "generationDate":new Date(1499067526481.3),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"abc"],
+  "page":{
+    "packageId":"de8bbb1d14544144958696fd707e94bf",
+    "type":"Axure:Page",
+    "name":"任务管理",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"setFunction",
+                "description":"设置 选中状态值 展开菜单 = &quot;true&quot;, 且<br> 选中状态值 任务管理 = &quot;true&quot;",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["321b6e91ff4f4bd0b18a91e5cd723929"]},
+{
+                          "exprType":"stringLiteral",
+                          "value":"true",
+                          "stos":[]}]},
+{
+                      "exprType":"fcall",
+                      "functionName":"SetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["3de1b7075de74ebb933dc85da892271a"]},
+{
+                          "exprType":"stringLiteral",
+                          "value":"true",
+                          "stos":[]}]}]}}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"e440fc053b7a4a8fa567c016953ae611",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "horizontalAlignment":"left",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "baseStyle":"362baa42ae6f4574919a09f144d28eef",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF2B4A93},
+            "size":{
+              "width":1326,
+              "height":64},
+            "borderWidth":"-1",
+            "cornerRadiusTopLeft":"0",
+            "outerShadow":{
+              "on":true,
+              "offsetX":0,
+              "offsetY":0,
+              "blurRadius":5,
+              "color":{
+                "r":0,
+                "g":0,
+                "b":0,
+                "a":0.27843137254902}}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b3ae6e818ca143019da9adb1ee135778",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "horizontalAlignment":"left",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "baseStyle":"362baa42ae6f4574919a09f144d28eef",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF2B4A93},
+                "size":{
+                  "width":1326,
+                  "height":64},
+                "borderWidth":"-1",
+                "cornerRadiusTopLeft":"0",
+                "outerShadow":{
+                  "on":true,
+                  "offsetX":0,
+                  "offsetY":0,
+                  "blurRadius":5,
+                  "color":{
+                    "r":0,
+                    "g":0,
+                    "b":0,
+                    "a":0.27843137254902}}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u0.png"}},
+{
+          "id":"a2a5efe5f7384462b2fb7d87cecca1ca",
+          "label":"平台首页",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "baseStyle":"737ccb808e7c48d4a76e359678ea19dc",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "mouseDown":{
+},
+              "selected":{
+}},
+            "location":{
+              "x":221,
+              "y":0},
+            "size":{
+              "width":144,
+              "height":64}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bd110e33f1d54fb0953cbb56f389b869",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"737ccb808e7c48d4a76e359678ea19dc",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "mouseDown":{
+},
+                  "selected":{
+}},
+                "location":{
+                  "x":221,
+                  "y":0},
+                "size":{
+                  "width":144,
+                  "height":64}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/平台首页_u2.png"}},
+{
+          "id":"839caa0665bb48d095105c33bc4d6cc2",
+          "label":"产品分类按钮",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"737ccb808e7c48d4a76e359678ea19dc",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "mouseDown":{
+},
+              "selected":{
+}},
+            "location":{
+              "x":366,
+              "y":0},
+            "size":{
+              "width":145,
+              "height":64},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"df8ccde737c44d4eb65f07833e4cd9be",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"737ccb808e7c48d4a76e359678ea19dc",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "mouseDown":{
+},
+                  "selected":{
+}},
+                "location":{
+                  "x":366,
+                  "y":0},
+                "size":{
+                  "width":145,
+                  "height":64},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/产品分类按钮_u4.png"}},
+{
+          "id":"76e5a6c2a5f14bbcadad2a715e331444",
+          "label":"数据直通车",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "baseStyle":"37a75efa27fa42b998606667df32beb7",
+            "stateStyles":{
+              "selected":{
+                "baseStyle":"37a75efa27fa42b998606667df32beb7"}},
+            "location":{
+              "x":528,
+              "y":0},
+            "size":{
+              "width":155,
+              "height":64},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a59e4ee765e44ae1bd6a3d04386fb368",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"37a75efa27fa42b998606667df32beb7",
+                "stateStyles":{
+                  "selected":{
+                    "baseStyle":"37a75efa27fa42b998606667df32beb7"}},
+                "location":{
+                  "x":528,
+                  "y":0},
+                "size":{
+                  "width":155,
+                  "height":64},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/数据直通车_u6.png",
+            "selected~":"images/任务管理/数据直通车_u6.png"}},
+{
+          "id":"09e5aa5deb33438495e0849558443fd0",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF204084},
+            "location":{
+              "x":220,
+              "y":0},
+            "size":{
+              "width":1,
+              "height":64},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"628b5e17b3fa4026b366aa044ec7365d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF204084},
+                "location":{
+                  "x":220,
+                  "y":0},
+                "size":{
+                  "width":1,
+                  "height":64},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u8.png"}},
+{
+          "id":"0d2d0ae024a7477b86f3f320bbd7f74d",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+                "opacity":"0.5"}},
+            "size":{
+              "width":220,
+              "height":64}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4da7ba07c5c4490a84dda352e7a75eae",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+                    "opacity":"0.5"}},
+                "size":{
+                  "width":220,
+                  "height":64}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u10.png",
+            "mouseOver~":"images/任务管理/u10.png"}},
+{
+          "id":"6ddb16f7cbed4cd4a195908e47a51276",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF204084},
+            "location":{
+              "x":365,
+              "y":0},
+            "size":{
+              "width":1,
+              "height":64},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"71850656f4d94e978aeb559aa713df87",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF204084},
+                "location":{
+                  "x":365,
+                  "y":0},
+                "size":{
+                  "width":1,
+                  "height":64},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u8.png"}},
+{
+          "id":"3c9668188bd5481ab73213d9a3976eeb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF204084},
+            "location":{
+              "x":527,
+              "y":0},
+            "size":{
+              "width":1,
+              "height":64},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9d98e642e09f4ea3ae1fc86e5115a8f3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF204084},
+                "location":{
+                  "x":527,
+                  "y":0},
+                "size":{
+                  "width":1,
+                  "height":64},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u8.png"}},
+{
+          "id":"b8dc22a308e1480683c5b57d5cd17564",
+          "label":"平台首页图标",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "selected":{
+}},
+            "location":{
+              "x":247,
+              "y":22},
+            "size":{
+              "width":20,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"512ea153f0aa4f74a425f7acdc9849f6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "selected":{
+}},
+                "location":{
+                  "x":247,
+                  "y":22},
+                "size":{
+                  "width":20,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/平台首页图标_u16.png"}},
+{
+          "id":"ba67797e58874fc9a7f0af9b595b3648",
+          "label":"最后一根分割线",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF204084},
+            "location":{
+              "x":683,
+              "y":0},
+            "size":{
+              "width":1,
+              "height":64},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2456c33871874928acfd1d4e085f2905",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF204084},
+                "location":{
+                  "x":683,
+                  "y":0},
+                "size":{
+                  "width":1,
+                  "height":64},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u8.png"}},
+{
+          "id":"9981fb9b8a154001bfceccef66a292f1",
+          "label":"产品分类",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseDown":{
+},
+              "selected":{
+}},
+            "location":{
+              "x":392,
+              "y":22},
+            "size":{
+              "width":20,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6e8d8f0aa16942929585c0f7227ee67b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseDown":{
+},
+                  "selected":{
+}},
+                "location":{
+                  "x":392,
+                  "y":22},
+                "size":{
+                  "width":20,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/产品分类_u20.png"}},
+{
+          "id":"b8bad83653b0408bb9bf172f0d32d9f6",
+          "label":"直通车图标",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":553,
+              "y":22},
+            "size":{
+              "width":20,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e10ea588d89542ed89e99ef6ccd3292e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":553,
+                  "y":22},
+                "size":{
+                  "width":20,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/直通车图标_u22.png"}},
+{
+          "id":"99a65d667a0a4800bcaa238e9c78903b",
+          "label":"产品分类下拉",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "selected":{
+}},
+            "location":{
+              "x":494,
+              "y":30},
+            "size":{
+              "width":9,
+              "height":7},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"efaa514aa9a34f95bc9de7087832e7c3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "selected":{
+}},
+                "location":{
+                  "x":494,
+                  "y":30},
+                "size":{
+                  "width":9,
+                  "height":7},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/产品分类下拉_u24.png"}},
+{
+          "id":"bf48ed80b91d4e12b9a051b7506d8ea1",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF204084},
+            "location":{
+              "x":1180,
+              "y":0},
+            "size":{
+              "width":1,
+              "height":64},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5bd5f71a94cc4544b4bce9817d4d53e9",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF204084},
+                "location":{
+                  "x":1180,
+                  "y":0},
+                "size":{
+                  "width":1,
+                  "height":64},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u8.png"}},
+{
+          "id":"2d9bc1ebaf854141bf0fb31ae979c43a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"737ccb808e7c48d4a76e359678ea19dc",
+            "location":{
+              "x":1181,
+              "y":0},
+            "size":{
+              "width":124,
+              "height":64}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"63a697b44de44728913efe7e9df1e046",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"737ccb808e7c48d4a76e359678ea19dc",
+                "location":{
+                  "x":1181,
+                  "y":0},
+                "size":{
+                  "width":124,
+                  "height":64}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u28.png"}},
+{
+          "id":"147fe53fd0ee4f488c50905eb98c664b",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1196,
+              "y":14},
+            "size":{
+              "width":36,
+              "height":36},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d78193f28fa94435a637ebdba6ac0970",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":1196,
+                  "y":14},
+                "size":{
+                  "width":36,
+                  "height":36},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u30.png"}},
+{
+          "id":"7dbdb72e880f4f86a5e852eb5c123362",
+          "label":"下拉",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "selected":{
+}},
+            "location":{
+              "x":1300,
+              "y":30},
+            "size":{
+              "width":9,
+              "height":7},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3be119ce12a44dd3bac293fcdafa19d0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "selected":{
+}},
+                "location":{
+                  "x":1300,
+                  "y":30},
+                "size":{
+                  "width":9,
+                  "height":7},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/产品分类下拉_u24.png"}},
+{
+          "id":"47e7d6da6862489d8ce49e3047af73e8",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFF5F8F8},
+            "location":{
+              "x":220,
+              "y":64},
+            "size":{
+              "width":1,
+              "height":768},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE9E9E9}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"88f1922e63304085ac57224f3b129e7c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFF5F8F8},
+                "location":{
+                  "x":220,
+                  "y":64},
+                "size":{
+                  "width":1,
+                  "height":768},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFE9E9E9}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u34.png"}},
+{
+          "id":"5f8f71422adc4450b29760b3b52212d0",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFF5F8F8},
+            "location":{
+              "x":0,
+              "y":64},
+            "size":{
+              "width":220,
+              "height":768},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3b967257068f47ff8376c4a0e0f4ec3d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFF5F8F8},
+                "location":{
+                  "x":0,
+                  "y":64},
+                "size":{
+                  "width":220,
+                  "height":768},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u36.png"}},
+{
+          "id":"ad12378f00984b8985a7f7220873a2ff",
+          "label":"item1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "baseStyle":"ee02ab9939ce4074970299bf8ad67311",
+            "stateStyles":{
+              "mouseOver":{
+}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":30,
+              "y":109},
+            "size":{
+              "width":133,
+              "height":45},
+            "borderWidth":"-1",
+            "cornerRadiusTopLeft":"2"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2e0205a87c044cb19ddd0a4e2110e00d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"ee02ab9939ce4074970299bf8ad67311",
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":30,
+                  "y":109},
+                "size":{
+                  "width":133,
+                  "height":45},
+                "borderWidth":"-1",
+                "cornerRadiusTopLeft":"2"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"42fcb0193113428e8d9d10f5a9e28893",
+          "label":"我的数据概览",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "selected":true,
+          "style":{
+            "baseStyle":"38aef033953746d784f627e491ec494b",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"3206d5b8ecee426bbc5cc1eec4ff1521"},
+              "selected":{
+                "baseStyle":"2914cf0f15d74f15b7f1111070a183ec"}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":20,
+              "y":154},
+            "size":{
+              "width":200,
+              "height":40},
+            "borderWidth":"-1",
+            "cornerRadiusTopLeft":"2"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4d03ab16f1654e3e88a7299f5107dde3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"38aef033953746d784f627e491ec494b",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"3206d5b8ecee426bbc5cc1eec4ff1521"},
+                  "selected":{
+                    "baseStyle":"2914cf0f15d74f15b7f1111070a183ec"}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":20,
+                  "y":154},
+                "size":{
+                  "width":200,
+                  "height":40},
+                "borderWidth":"-1",
+                "cornerRadiusTopLeft":"2"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 我的数据概览 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["42fcb0193113428e8d9d10f5a9e28893"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif",
+            "selected~":"images/任务管理/我的数据概览_u40_selected.png",
+            "mouseOver~":"resources/images/transparent.gif"}},
+{
+          "id":"a24d36bc6c4645a499d37746a533b225",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF7894AC},
+            "location":{
+              "x":20,
+              "y":128},
+            "size":{
+              "width":10,
+              "height":7},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3daf04b7a19c47e4ac9d8d37642e78cb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF7894AC},
+                "location":{
+                  "x":20,
+                  "y":128},
+                "size":{
+                  "width":10,
+                  "height":7},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"设置 动态面板状态",
+                      "panelsToStates":[]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/任务管理/u42.png"}},
+{
+          "id":"b8eb89a94f6847ea8b03efce60e059f5",
+          "label":"横线1",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":104},
+            "size":{
+              "width":200,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFDDE8ED}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/任务管理/横线1_u44_line.png"}},
+{
+          "id":"a46f82d68c3b4e119bcce0e2b92d7f45",
+          "label":"横线2",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":194},
+            "size":{
+              "width":200,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFDDE8ED}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/任务管理/横线1_u44_line.png"}},
+{
+          "id":"2bfa9b23c1574abba3191480fa05a3ad",
+          "label":"横线4",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":239},
+            "size":{
+              "width":200,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFDDE8ED}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/任务管理/横线1_u44_line.png"}},
+{
+          "id":"321b6e91ff4f4bd0b18a91e5cd723929",
+          "label":"展开菜单",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":244},
+            "size":{
+              "width":200,
+              "height":250}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"3fda420a5c624837bd79be2e6c668a94",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"7201c576d56440ac8be08fe3af57e5fe",
+                  "label":"",
+                  "parentDynamicPanel":"321b6e91ff4f4bd0b18a91e5cd723929",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFF5F7F8},
+                    "size":{
+                      "width":200,
+                      "height":250},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"102887350e824fb98830c61079571bc2",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"321b6e91ff4f4bd0b18a91e5cd723929",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFF5F7F8},
+                        "size":{
+                          "width":200,
+                          "height":250},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/u48.png"}},
+{
+                  "id":"3de1b7075de74ebb933dc85da892271a",
+                  "label":"任务管理",
+                  "parentDynamicPanel":"321b6e91ff4f4bd0b18a91e5cd723929",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"38aef033953746d784f627e491ec494b",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"3206d5b8ecee426bbc5cc1eec4ff1521"},
+                      "selected":{
+                        "baseStyle":"2914cf0f15d74f15b7f1111070a183ec"}},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "size":{
+                      "width":220,
+                      "height":40},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"2"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"41a2c9fee98d4eddbeaedef5686211e3",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"321b6e91ff4f4bd0b18a91e5cd723929",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"38aef033953746d784f627e491ec494b",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "baseStyle":"3206d5b8ecee426bbc5cc1eec4ff1521"},
+                          "selected":{
+                            "baseStyle":"2914cf0f15d74f15b7f1111070a183ec"}},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "size":{
+                          "width":220,
+                          "height":40},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"2"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 任务管理 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["3de1b7075de74ebb933dc85da892271a"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif",
+                    "selected~":"images/任务管理/任务管理_u50_selected.png",
+                    "mouseOver~":"resources/images/transparent.gif"}},
+{
+                  "id":"c41390ccb3f54983a77747629fb9b6cf",
+                  "label":"已分发数据",
+                  "parentDynamicPanel":"321b6e91ff4f4bd0b18a91e5cd723929",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"38aef033953746d784f627e491ec494b",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"3206d5b8ecee426bbc5cc1eec4ff1521"},
+                      "selected":{
+                        "baseStyle":"2914cf0f15d74f15b7f1111070a183ec"}},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":0,
+                      "y":45},
+                    "size":{
+                      "width":220,
+                      "height":40},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"2"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"36c14c86108d47a8b2e4b1339189fe03",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"321b6e91ff4f4bd0b18a91e5cd723929",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"38aef033953746d784f627e491ec494b",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "baseStyle":"3206d5b8ecee426bbc5cc1eec4ff1521"},
+                          "selected":{
+                            "baseStyle":"2914cf0f15d74f15b7f1111070a183ec"}},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":0,
+                          "y":45},
+                        "size":{
+                          "width":220,
+                          "height":40},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"2"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 已分发数据 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["c41390ccb3f54983a77747629fb9b6cf"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}}]}]},
+                    "onMouseOver":{
+                      "description":"OnMouseOver",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]}]}]},
+                    "onMouseOut":{
+                      "description":"OnMouseOut",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif",
+                    "selected~":"images/任务管理/任务管理_u50_selected.png",
+                    "mouseOver~":"resources/images/transparent.gif"}},
+{
+                  "id":"8028c8c6fe504fccbad6e711c4355243",
+                  "label":"SQL开发中心",
+                  "parentDynamicPanel":"321b6e91ff4f4bd0b18a91e5cd723929",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"38aef033953746d784f627e491ec494b",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"3206d5b8ecee426bbc5cc1eec4ff1521"},
+                      "selected":{
+                        "baseStyle":"2914cf0f15d74f15b7f1111070a183ec"}},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":0,
+                      "y":95},
+                    "size":{
+                      "width":220,
+                      "height":40},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"2"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"e159f33e5a6b49068b9776e6b0d30f0e",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"321b6e91ff4f4bd0b18a91e5cd723929",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"38aef033953746d784f627e491ec494b",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "baseStyle":"3206d5b8ecee426bbc5cc1eec4ff1521"},
+                          "selected":{
+                            "baseStyle":"2914cf0f15d74f15b7f1111070a183ec"}},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":0,
+                          "y":95},
+                        "size":{
+                          "width":220,
+                          "height":40},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"2"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 SQL开发中心 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["8028c8c6fe504fccbad6e711c4355243"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"linkWindow",
+                              "description":"在 新窗口/标签页 打开 SQL开发中心",
+                              "target":{
+                                "targetType":"page",
+                                "url":"sql开发中心.html",
+                                "includeVariables":true},
+                              "linkType":"new"}]}]},
+                    "onMouseOver":{
+                      "description":"OnMouseOver",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]}]}]},
+                    "onMouseOut":{
+                      "description":"OnMouseOut",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif",
+                    "selected~":"images/任务管理/任务管理_u50_selected.png",
+                    "mouseOver~":"resources/images/transparent.gif"}},
+{
+                  "id":"7ad76d8405234fcb842dd32cd12f7bd2",
+                  "label":"横线5",
+                  "parentDynamicPanel":"321b6e91ff4f4bd0b18a91e5cd723929",
+                  "type":"horizontalLine",
+                  "styleType":"horizontalLine",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":135},
+                    "size":{
+                      "width":200,
+                      "height":10},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFFDDE8ED}},
+                  "adaptiveStyles":{
+},
+                  "images":{
+                    "start~":"resources/images/transparent.gif",
+                    "end~":"resources/images/transparent.gif",
+                    "line~":"images/任务管理/横线1_u44_line.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"0ceb8f0c9b424bbf95dfa9826d8f3021",
+          "label":"展开",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":20,
+              "y":200},
+            "size":{
+              "width":10,
+              "height":10},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 收起,<br>隐藏 展开菜单,<br>展开",
+                      "objectsToFades":[{
+                          "objectPath":["321b6e91ff4f4bd0b18a91e5cd723929"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["76e521bcf17e4ba3a33577ab9afa58eb"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0ceb8f0c9b424bbf95dfa9826d8f3021"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"1d61137cba6e4b38b4e9ec2e55fd0bda",
+              "label":"展开",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"bdb7e592492f4a4388e8998f66768dff",
+                  "label":"",
+                  "parentDynamicPanel":"0ceb8f0c9b424bbf95dfa9826d8f3021",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFF7894AC},
+                    "location":{
+                      "x":0,
+                      "y":19},
+                    "size":{
+                      "width":10,
+                      "height":7},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"4fdfbaff33634098b14f8da43a5f6e2c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"0ceb8f0c9b424bbf95dfa9826d8f3021",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF7894AC},
+                        "location":{
+                          "x":0,
+                          "y":19},
+                        "size":{
+                          "width":10,
+                          "height":7},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/u42.png"}},
+{
+                  "id":"d65d9ba0b6614c7081d4f8773512d9f6",
+                  "label":"item2",
+                  "parentDynamicPanel":"0ceb8f0c9b424bbf95dfa9826d8f3021",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"ee02ab9939ce4074970299bf8ad67311",
+                    "stateStyles":{
+                      "mouseOver":{
+}},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":10,
+                      "y":0},
+                    "size":{
+                      "width":129,
+                      "height":45},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"2"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"fb188b4a6bf84f7ba948a8fa02ef02fe",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"0ceb8f0c9b424bbf95dfa9826d8f3021",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"ee02ab9939ce4074970299bf8ad67311",
+                        "stateStyles":{
+                          "mouseOver":{
+}},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":10,
+                          "y":0},
+                        "size":{
+                          "width":129,
+                          "height":45},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"2"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onMouseOver":{
+                      "description":"OnMouseOver",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]}]}]},
+                    "onMouseOut":{
+                      "description":"OnMouseOut",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]}]}]}},
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"76e521bcf17e4ba3a33577ab9afa58eb",
+          "label":"收起",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":200},
+            "size":{
+              "width":10,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 展开菜单",
+                      "objectsToFades":[{
+                          "objectPath":["321b6e91ff4f4bd0b18a91e5cd723929"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 展开,<br>隐藏 收起",
+                      "objectsToFades":[{
+                          "objectPath":["76e521bcf17e4ba3a33577ab9afa58eb"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0ceb8f0c9b424bbf95dfa9826d8f3021"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"c20bbef7f24048bda612ab0d10f75887",
+              "label":"收起",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"f4ce436a08e344b1b98a79f5cc7e5b29",
+                  "label":"",
+                  "parentDynamicPanel":"76e521bcf17e4ba3a33577ab9afa58eb",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFF7894AC},
+                    "location":{
+                      "x":2,
+                      "y":18},
+                    "size":{
+                      "width":7,
+                      "height":10},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"87861fe3fe2b4039817149123d6cd020",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"76e521bcf17e4ba3a33577ab9afa58eb",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF7894AC},
+                        "location":{
+                          "x":2,
+                          "y":18},
+                        "size":{
+                          "width":7,
+                          "height":10},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/u63.png"}},
+{
+                  "id":"ed4bee0358314d52b170d6557e390f48",
+                  "label":"item2",
+                  "parentDynamicPanel":"76e521bcf17e4ba3a33577ab9afa58eb",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"ee02ab9939ce4074970299bf8ad67311",
+                    "stateStyles":{
+                      "mouseOver":{
+}},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":10,
+                      "y":0},
+                    "size":{
+                      "width":129,
+                      "height":45},
+                    "borderWidth":"-1",
+                    "cornerRadiusTopLeft":"2"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"7549c5ff0fd7412183a5fbffc216f794",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"76e521bcf17e4ba3a33577ab9afa58eb",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"ee02ab9939ce4074970299bf8ad67311",
+                        "stateStyles":{
+                          "mouseOver":{
+}},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":10,
+                          "y":0},
+                        "size":{
+                          "width":129,
+                          "height":45},
+                        "borderWidth":"-1",
+                        "cornerRadiusTopLeft":"2"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onMouseOver":{
+                      "description":"OnMouseOver",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]}]}]},
+                    "onMouseOut":{
+                      "description":"OnMouseOut",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]}]}]}},
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"5b0ce7101a824cb69e42d97a6ed63bad",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF2C4A93}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF7A93AC},
+            "location":{
+              "x":20,
+              "y":80},
+            "size":{
+              "width":18,
+              "height":2},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1e9fb192d257449486eec920f8d10838",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF2C4A93}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF7A93AC},
+                "location":{
+                  "x":20,
+                  "y":80},
+                "size":{
+                  "width":18,
+                  "height":2},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u67.png",
+            "mouseOver~":"images/任务管理/u67.png"}},
+{
+          "id":"4ee1638329684f0090e565f8a285cd40",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF2C4A93}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF7A93AC},
+            "location":{
+              "x":20,
+              "y":85},
+            "size":{
+              "width":18,
+              "height":2},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"89c9ed2f2d124a7da37c4a23f1a5905a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF2C4A93}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF7A93AC},
+                "location":{
+                  "x":20,
+                  "y":85},
+                "size":{
+                  "width":18,
+                  "height":2},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u67.png",
+            "mouseOver~":"images/任务管理/u67.png"}},
+{
+          "id":"709073498a9440abb9b976293e50ac75",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF2C4A93}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF7A93AC},
+            "location":{
+              "x":20,
+              "y":90},
+            "size":{
+              "width":18,
+              "height":2},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"cbef239ffd5e44d089713f6af542e624",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF2C4A93}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF7A93AC},
+                "location":{
+                  "x":20,
+                  "y":90},
+                "size":{
+                  "width":18,
+                  "height":2},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u67.png",
+            "mouseOver~":"images/任务管理/u67.png"}},
+{
+          "id":"9bd9a80ae4de4a84acdb5828a91b9b79",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":247,
+              "y":115},
+            "size":{
+              "width":1054,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFC1D2DA}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/任务管理/u73_line.png"}},
+{
+          "id":"90662ff2c7184163b670769ea7f8625e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "fontSize":"18px",
+            "fontWeight":"400",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF2C4A93,
+              "opacity":1},
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "location":{
+              "x":247,
+              "y":91},
+            "size":{
+              "width":73,
+              "height":24}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7079f78142534974970b00a0f7c18435",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "fontSize":"18px",
+                "fontWeight":"400",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF2C4A93,
+                  "opacity":1},
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "location":{
+                  "x":247,
+                  "y":91},
+                "size":{
+                  "width":73,
+                  "height":24}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"2ae2284364ff4c57a8a0a417f86e0ff8",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF2C4A93},
+            "location":{
+              "x":247,
+              "y":119},
+            "size":{
+              "width":73,
+              "height":2},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c4ea6875b5c149448579557da8606874",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF2C4A93},
+                "location":{
+                  "x":247,
+                  "y":119},
+                "size":{
+                  "width":73,
+                  "height":2},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u76.png"}},
+{
+          "id":"b791465bbbbd473eb0ea2e7ca5ed0551",
+          "label":"表头",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"d776760c87d14d3cace270ee996d6c47",
+            "location":{
+              "x":200,
+              "y":143},
+            "size":{
+              "width":127,
+              "height":24}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ed38a2f7445240a0b40a62cab554993c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"d776760c87d14d3cace270ee996d6c47",
+                "location":{
+                  "x":200,
+                  "y":143},
+                "size":{
+                  "width":127,
+                  "height":24}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"274153dc83d848d5bc7cb002f496fb90",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":394,
+              "y":104},
+            "size":{
+              "width":281,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"78cdc5b6e86e4c9495302c33b2f6c46c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":394,
+                  "y":104},
+                "size":{
+                  "width":281,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"738b781e06994f788ece2a2d08e3c120",
+          "label":"输入框1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "baseStyle":"4cffa5c31cf249cf92b2f933adaba86a",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "mouseDown":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "selected":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "disabled":{
+                "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+            "location":{
+              "x":736,
+              "y":137},
+            "size":{
+              "width":211,
+              "height":31},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE9E9E9},
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d1fc3e919f8a443cac4d2ff036175345",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"4cffa5c31cf249cf92b2f933adaba86a",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "mouseDown":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "selected":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "disabled":{
+                    "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+                "location":{
+                  "x":736,
+                  "y":137},
+                "size":{
+                  "width":211,
+                  "height":31},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFE9E9E9},
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/输入框1_u82.png",
+            "selected~":"images/任务管理/输入框1_u82_selected.png",
+            "mouseDown~":"images/任务管理/输入框1_u82_selected.png",
+            "disabled~":"images/任务管理/输入框1_u82_disabled.png"}},
+{
+          "id":"4bf39d5b6b954c25b6736b1c4d42f4d8",
+          "label":"表头",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF808080,
+              "opacity":1},
+            "baseStyle":"d776760c87d14d3cace270ee996d6c47",
+            "location":{
+              "x":630,
+              "y":143},
+            "size":{
+              "width":87,
+              "height":23}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0453c8b5d8514bbb94b2c27294d241b5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF808080,
+                  "opacity":1},
+                "baseStyle":"d776760c87d14d3cace270ee996d6c47",
+                "location":{
+                  "x":630,
+                  "y":143},
+                "size":{
+                  "width":87,
+                  "height":23}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"2af74365a91e40a5bd85dd40d76e2cf9",
+          "label":"文字区域",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+            "stateStyles":{
+              "hint":{
+                "fontName":"'Microsoft YaHei'",
+                "fontSize":"12px",
+                "horizontalAlignment":"left",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFAFAFAF,
+                  "opacity":1}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":742,
+              "y":137},
+            "size":{
+              "width":220,
+              "height":31}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 输入框1 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["738b781e06994f788ece2a2d08e3c120"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1<br> (If 变量 abc = &quot;0&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetGlobalVariableValue",
+                      "arguments":[{
+                          "exprType":"globalVariableLiteral",
+                          "variableName":"abc"}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"0",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 输入框1 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["738b781e06994f788ece2a2d08e3c120"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"Case 2<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 输入框1 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["738b781e06994f788ece2a2d08e3c120"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]},
+            "onFocus":{
+              "description":"OnFocus",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 输入框1 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["738b781e06994f788ece2a2d08e3c120"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]}]}}]}]},
+            "onLostFocus":{
+              "description":"OnLostFocus",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 输入框1 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["738b781e06994f788ece2a2d08e3c120"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "placeholderText":"支持ID、名称"},
+{
+          "id":"519cbac259554e1dba1a2f4d212f0614",
+          "label":".按钮1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"b8748f803ca1445d9044ba66a7bc0b69",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"d9b6a206ba804492b7eabd480553c0b2"},
+              "mouseDown":{
+                "baseStyle":"d9b6a206ba804492b7eabd480553c0b2"},
+              "disabled":{
+                "baseStyle":"959e8c4cbea74e878ae2bf82e9a6989b"}},
+            "location":{
+              "x":1086,
+              "y":135},
+            "size":{
+              "width":65,
+              "height":32},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "linePattern":"none"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a88bd623d658401c900e4660649c0c99",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"b8748f803ca1445d9044ba66a7bc0b69",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"d9b6a206ba804492b7eabd480553c0b2"},
+                  "mouseDown":{
+                    "baseStyle":"d9b6a206ba804492b7eabd480553c0b2"},
+                  "disabled":{
+                    "baseStyle":"959e8c4cbea74e878ae2bf82e9a6989b"}},
+                "location":{
+                  "x":1086,
+                  "y":135},
+                "size":{
+                  "width":65,
+                  "height":32},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "linePattern":"none"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/_按钮1_u87.png",
+            "mouseOver~":"images/任务管理/_按钮1_u87_mouseOver.png",
+            "mouseDown~":"images/任务管理/_按钮1_u87_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮1_u87_disabled.png"}},
+{
+          "id":"7bb816e7e8ed420bb6738c1c148456d8",
+          "label":".按钮2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+              "disabled":{
+                "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+            "location":{
+              "x":1180,
+              "y":137},
+            "size":{
+              "width":89,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"fec487c6d10f4742af2f4e0bad80a9f4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+                  "disabled":{
+                    "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+                "location":{
+                  "x":1180,
+                  "y":137},
+                "size":{
+                  "width":89,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/_按钮2_u89.png",
+            "mouseOver~":"images/任务管理/_按钮2_u89_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮2_u89_disabled.png"}},
+{
+          "id":"1d49a67f94224fa19ac551badf891170",
+          "label":"表头",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"d776760c87d14d3cace270ee996d6c47",
+            "location":{
+              "x":200,
+              "y":198},
+            "size":{
+              "width":127,
+              "height":24}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d178451e4153498db59a9f74bed15d48",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"d776760c87d14d3cace270ee996d6c47",
+                "location":{
+                  "x":200,
+                  "y":198},
+                "size":{
+                  "width":127,
+                  "height":24}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"f0afb873496940f5b47924e7f2927691",
+          "label":"表头",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"d776760c87d14d3cace270ee996d6c47",
+            "location":{
+              "x":583,
+              "y":198},
+            "size":{
+              "width":127,
+              "height":24}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6f1a6b3c79dd43bb8a1a44e6d8140c3e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"d776760c87d14d3cace270ee996d6c47",
+                "location":{
+                  "x":583,
+                  "y":198},
+                "size":{
+                  "width":127,
+                  "height":24}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"7a060e541e5e4e60be9c15fb589e50ab",
+          "label":"表头",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"d776760c87d14d3cace270ee996d6c47",
+            "location":{
+              "x":940,
+              "y":198},
+            "size":{
+              "width":127,
+              "height":24}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a6f7fd035c44401ab7e5c960e4249f9b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"d776760c87d14d3cace270ee996d6c47",
+                "location":{
+                  "x":940,
+                  "y":198},
+                "size":{
+                  "width":127,
+                  "height":24}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"c6ced1e5e90b404a81579818123ed877",
+          "label":"文本框",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+            "stateStyles":{
+              "mouseDown":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "selected":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "disabled":{
+                "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+            "location":{
+              "x":1086,
+              "y":192},
+            "size":{
+              "width":223,
+              "height":34}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ad3d5aeea68b4c91b7448232ebbf956a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+                "stateStyles":{
+                  "mouseDown":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "selected":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "disabled":{
+                    "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+                "location":{
+                  "x":1086,
+                  "y":192},
+                "size":{
+                  "width":223,
+                  "height":34}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 options",
+                      "objectsToFades":[{
+                          "objectPath":["8f432cdbb7fe41639d10b486d1e06cf9"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 当前部件 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>隐藏 下拉默认",
+                      "objectsToFades":[{
+                          "objectPath":["6d0f57aaa238468687b4d6fdf43130d7"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["cc3d2a854fd24d8ba004f8566acf0a24"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c6ced1e5e90b404a81579818123ed877"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>下拉选中,<br>隐藏 下拉默认,<br>(Image)",
+                      "objectsToFades":[{
+                          "objectPath":["ce8f707fee0344fdbaad7d756c749704"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["cc3d2a854fd24d8ba004f8566acf0a24"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6d0f57aaa238468687b4d6fdf43130d7"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7a1b7552c0ad47e795d536a4450b4c1e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1<br> (If 可见性 options = 假)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetVisibility",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["8f432cdbb7fe41639d10b486d1e06cf9"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":false}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c6ced1e5e90b404a81579818123ed877"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["cc3d2a854fd24d8ba004f8566acf0a24"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6d0f57aaa238468687b4d6fdf43130d7"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["ce8f707fee0344fdbaad7d756c749704"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7a1b7552c0ad47e795d536a4450b4c1e"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"Case 2<br> (Else If 可见性 options = 真)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetVisibility",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["8f432cdbb7fe41639d10b486d1e06cf9"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":true}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c6ced1e5e90b404a81579818123ed877"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/任务管理/文本框_u97.png",
+            "selected~":"images/任务管理/文本框_u97_selected.png",
+            "mouseDown~":"images/任务管理/文本框_u97_selected.png",
+            "disabled~":"images/任务管理/文本框_u97_disabled.png"}},
+{
+          "id":"ce8f707fee0344fdbaad7d756c749704",
+          "label":"下拉选中",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1294,
+              "y":204},
+            "size":{
+              "width":7,
+              "height":11}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"51be3f16415c4ad7976272fee3d23c28",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"cc3d2a854fd24d8ba004f8566acf0a24",
+                  "label":"下拉选中",
+                  "parentDynamicPanel":"ce8f707fee0344fdbaad7d756c749704",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":9,
+                      "height":9}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"b04be088e4614c5b96fdcbaa6933f93a",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"ce8f707fee0344fdbaad7d756c749704",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":9,
+                          "height":9}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/下拉选中_u100.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"6d0f57aaa238468687b4d6fdf43130d7",
+          "label":"下拉默认",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1294,
+              "y":204},
+            "size":{
+              "width":7,
+              "height":11}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"d5468aeef289412ebaccac745a592ce9",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"7a1b7552c0ad47e795d536a4450b4c1e",
+                  "label":"",
+                  "parentDynamicPanel":"6d0f57aaa238468687b4d6fdf43130d7",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":9,
+                      "height":9}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"4770c0a1d8b24877a3df5a22ffe922b4",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"6d0f57aaa238468687b4d6fdf43130d7",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":9,
+                          "height":9}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/u103.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"8f432cdbb7fe41639d10b486d1e06cf9",
+          "label":"options",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":1086,
+              "y":225},
+            "size":{
+              "width":223,
+              "height":127},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c6ced1e5e90b404a81579818123ed877"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>下拉选中,<br>隐藏 下拉默认,<br>(Image)",
+                      "objectsToFades":[{
+                          "objectPath":["ce8f707fee0344fdbaad7d756c749704"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["cc3d2a854fd24d8ba004f8566acf0a24"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6d0f57aaa238468687b4d6fdf43130d7"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7a1b7552c0ad47e795d536a4450b4c1e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["6d0f57aaa238468687b4d6fdf43130d7"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["ce8f707fee0344fdbaad7d756c749704"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["cc3d2a854fd24d8ba004f8566acf0a24"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7a1b7552c0ad47e795d536a4450b4c1e"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onPanelStateChange":{
+              "description":"OnPanelStateChange",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["6d0f57aaa238468687b4d6fdf43130d7"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["cc3d2a854fd24d8ba004f8566acf0a24"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["ce8f707fee0344fdbaad7d756c749704"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7a1b7552c0ad47e795d536a4450b4c1e"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"b6902c4b9e5946f3be8b47fcbeba3cb0",
+              "label":"show dropdown options",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"7f318fc65b764c7aaa60bca058c075a5",
+                  "label":"dropDownBox",
+                  "parentDynamicPanel":"8f432cdbb7fe41639d10b486d1e06cf9",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Open Sans Regular', 'Open Sans'",
+                    "fontSize":"12px",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF606060,
+                      "opacity":1},
+                    "stateStyles":{
+                      "selected":{
+}},
+                    "location":{
+                      "x":0,
+                      "y":-19},
+                    "size":{
+                      "width":310,
+                      "height":133},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF2C4A93},
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":3,
+                      "offsetY":3,
+                      "blurRadius":7,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.0588235294117647}}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"1c3d41308f3848b0a6494baf38003607",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"8f432cdbb7fe41639d10b486d1e06cf9",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Open Sans Regular', 'Open Sans'",
+                        "fontSize":"12px",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF606060,
+                          "opacity":1},
+                        "stateStyles":{
+                          "selected":{
+}},
+                        "location":{
+                          "x":0,
+                          "y":-19},
+                        "size":{
+                          "width":310,
+                          "height":133},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93},
+                        "outerShadow":{
+                          "on":true,
+                          "offsetX":3,
+                          "offsetY":3,
+                          "blurRadius":7,
+                          "color":{
+                            "r":0,
+                            "g":0,
+                            "b":0,
+                            "a":0.0588235294117647}}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/dropdownbox_u106.png"}},
+{
+                  "id":"d2abce2165a84e4ca1f935a2c7ac8c48",
+                  "label":"选项1",
+                  "parentDynamicPanel":"8f432cdbb7fe41639d10b486d1e06cf9",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":4},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"9820433a3fcc4bc792ee1b9c39951c82",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"8f432cdbb7fe41639d10b486d1e06cf9",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":4},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["8f432cdbb7fe41639d10b486d1e06cf9"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[ This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["ad3d5aeea68b4c91b7448232ebbf956a"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[ This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["c6ced1e5e90b404a81579818123ed877"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["6d0f57aaa238468687b4d6fdf43130d7"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["cc3d2a854fd24d8ba004f8566acf0a24"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["ce8f707fee0344fdbaad7d756c749704"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["7a1b7552c0ad47e795d536a4450b4c1e"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选项1 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["d2abce2165a84e4ca1f935a2c7ac8c48"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;false&quot;, 且<br> 选中状态值 选型2 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["4cf22c0ce28c4f498745a60dfd468785"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["fb09dcce99554364bfbf5ef5da0d71f7"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}},
+{
+                  "id":"4cf22c0ce28c4f498745a60dfd468785",
+                  "label":"选型3",
+                  "parentDynamicPanel":"8f432cdbb7fe41639d10b486d1e06cf9",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":77},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"9ec91def0f7147f58b0f564e916f2753",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"8f432cdbb7fe41639d10b486d1e06cf9",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":77},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["8f432cdbb7fe41639d10b486d1e06cf9"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[&nbsp; This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["ad3d5aeea68b4c91b7448232ebbf956a"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[  This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["c6ced1e5e90b404a81579818123ed877"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["6d0f57aaa238468687b4d6fdf43130d7"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["cc3d2a854fd24d8ba004f8566acf0a24"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["ce8f707fee0344fdbaad7d756c749704"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["7a1b7552c0ad47e795d536a4450b4c1e"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["4cf22c0ce28c4f498745a60dfd468785"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选项1 = &quot;false&quot;, 且<br> 选中状态值 选型2 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["d2abce2165a84e4ca1f935a2c7ac8c48"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["fb09dcce99554364bfbf5ef5da0d71f7"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}},
+{
+                  "id":"fb09dcce99554364bfbf5ef5da0d71f7",
+                  "label":"选型2",
+                  "parentDynamicPanel":"8f432cdbb7fe41639d10b486d1e06cf9",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":41},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"3cc35370cdf945679618545b57ca63a5",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"8f432cdbb7fe41639d10b486d1e06cf9",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":41},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["8f432cdbb7fe41639d10b486d1e06cf9"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[&nbsp; This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["ad3d5aeea68b4c91b7448232ebbf956a"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[  This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["c6ced1e5e90b404a81579818123ed877"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["6d0f57aaa238468687b4d6fdf43130d7"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["cc3d2a854fd24d8ba004f8566acf0a24"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["ce8f707fee0344fdbaad7d756c749704"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["7a1b7552c0ad47e795d536a4450b4c1e"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型2 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["fb09dcce99554364bfbf5ef5da0d71f7"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;false&quot;, 且<br> 选中状态值 选项1 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["4cf22c0ce28c4f498745a60dfd468785"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["d2abce2165a84e4ca1f935a2c7ac8c48"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"34d026e607df40f48e4573947424d557",
+          "label":".按钮2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+              "disabled":{
+                "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+            "location":{
+              "x":255,
+              "y":272},
+            "size":{
+              "width":65,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"660064dacecf4d3eb6a676db02df9813",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+                  "disabled":{
+                    "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+                "location":{
+                  "x":255,
+                  "y":272},
+                "size":{
+                  "width":65,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 新窗口/标签页 打开 新建任务",
+                      "target":{
+                        "targetType":"page",
+                        "url":"新建任务.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/任务管理/_按钮2_u114.png",
+            "mouseOver~":"images/任务管理/_按钮2_u114_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮2_u114_disabled.png"}},
+{
+          "id":"cffea9d06a074c7bb382607dc16093fd",
+          "label":".按钮2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+              "disabled":{
+                "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+            "location":{
+              "x":347,
+              "y":272},
+            "size":{
+              "width":65,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5030ffdb5a1d4c37bd46aeee2152b0fd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+                  "disabled":{
+                    "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+                "location":{
+                  "x":347,
+                  "y":272},
+                "size":{
+                  "width":65,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/_按钮2_u114.png",
+            "mouseOver~":"images/任务管理/_按钮2_u114_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮2_u114_disabled.png"}},
+{
+          "id":"fd3874fb68244df990cfcdbca65155bf",
+          "label":".按钮2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+              "disabled":{
+                "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+            "location":{
+              "x":441,
+              "y":272},
+            "size":{
+              "width":65,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"42d924ca360a449da637d4da5722d984",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+                  "disabled":{
+                    "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+                "location":{
+                  "x":441,
+                  "y":272},
+                "size":{
+                  "width":65,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/_按钮2_u114.png",
+            "mouseOver~":"images/任务管理/_按钮2_u114_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮2_u114_disabled.png"}},
+{
+          "id":"6a9696e15ba944bdbd2ccefa02fbf765",
+          "label":".按钮2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+              "disabled":{
+                "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+            "location":{
+              "x":530,
+              "y":272},
+            "size":{
+              "width":65,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d8556686b553461695beb0e5b2ee8b10",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+                  "disabled":{
+                    "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+                "location":{
+                  "x":530,
+                  "y":272},
+                "size":{
+                  "width":65,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/_按钮2_u114.png",
+            "mouseOver~":"images/任务管理/_按钮2_u114_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮2_u114_disabled.png"}},
+{
+          "id":"7bc5be2b597c472fa9460d5b18d164ff",
+          "label":".按钮2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+              "disabled":{
+                "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+            "location":{
+              "x":619,
+              "y":272},
+            "size":{
+              "width":65,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bd957648f1f44305bb1dd0b3f0587294",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+                  "disabled":{
+                    "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+                "location":{
+                  "x":619,
+                  "y":272},
+                "size":{
+                  "width":65,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/_按钮2_u114.png",
+            "mouseOver~":"images/任务管理/_按钮2_u114_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮2_u114_disabled.png"}},
+{
+          "id":"1735573459ea4f20be9efd3886b28eaa",
+          "label":".按钮2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+              "disabled":{
+                "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+            "location":{
+              "x":705,
+              "y":272},
+            "size":{
+              "width":65,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"84df1b89f9c14cf5b46b7ed8f56e73d6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+                  "disabled":{
+                    "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+                "location":{
+                  "x":705,
+                  "y":272},
+                "size":{
+                  "width":65,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/_按钮2_u114.png",
+            "mouseOver~":"images/任务管理/_按钮2_u114_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮2_u114_disabled.png"}},
+{
+          "id":"a01ee7426dc049d7969cee658ba241dc",
+          "label":".按钮2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+              "disabled":{
+                "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+            "location":{
+              "x":795,
+              "y":272},
+            "size":{
+              "width":65,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5a30ee8833c04ade92410786ab0d43b7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+                  "disabled":{
+                    "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+                "location":{
+                  "x":795,
+                  "y":272},
+                "size":{
+                  "width":65,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/_按钮2_u114.png",
+            "mouseOver~":"images/任务管理/_按钮2_u114_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮2_u114_disabled.png"}},
+{
+          "id":"363947ea0da346b3a25d469620a75b75",
+          "label":".按钮2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+              "disabled":{
+                "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+            "location":{
+              "x":890,
+              "y":272},
+            "size":{
+              "width":65,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6fa62d74fc4b402790ffa99d196f2946",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+                  "disabled":{
+                    "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+                "location":{
+                  "x":890,
+                  "y":272},
+                "size":{
+                  "width":65,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/_按钮2_u114.png",
+            "mouseOver~":"images/任务管理/_按钮2_u114_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮2_u114_disabled.png"}},
+{
+          "id":"bee603731451433192eb9a31bdfd6279",
+          "label":".按钮2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+              "disabled":{
+                "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+            "location":{
+              "x":980,
+              "y":272},
+            "size":{
+              "width":113,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1389ec4ec0f943d785212029e4fd23d3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"8a8065df3960467786ec2e2b753983d3",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"64f55b4d653348978fa3cd3bcd5dc922"},
+                  "disabled":{
+                    "baseStyle":"ba5436d848274625ad50dedb72b51ceb"}},
+                "location":{
+                  "x":980,
+                  "y":272},
+                "size":{
+                  "width":113,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/_按钮2_u130.png",
+            "mouseOver~":"images/任务管理/_按钮2_u130_mouseOver.png",
+            "disabled~":"images/任务管理/_按钮2_u130_disabled.png"}},
+{
+          "id":"7199d2e4dc39449f9eb993316b67a5ba",
+          "label":"",
+          "type":"table",
+          "styleType":"table",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":252,
+              "y":330},
+            "size":{
+              "width":1096,
+              "height":164}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f077e869a96f4b20b2d5ce3e751b8efb",
+              "label":"2行1列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":0,
+                  "y":81},
+                "size":{
+                  "width":71,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"819ed18bb3d1441aad3e67da0ed0def7",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":0,
+                      "y":81},
+                    "size":{
+                      "width":71,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/2行1列_u173.png",
+                "selected~":"images/任务管理/1行1列_u153_selected.png",
+                "mouseOver~":"images/任务管理/2行1列_u173_mouseOver.png"}},
+{
+              "id":"1d3993fb5eaa4d898a8cd80fac784911",
+              "label":"2行2列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":71,
+                  "y":81},
+                "size":{
+                  "width":103,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"4317cc62f6d64199a332a963aa0129d0",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":71,
+                      "y":81},
+                    "size":{
+                      "width":103,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/2行2列_u175.png",
+                "selected~":"images/任务管理/1行2列_u155_selected.png",
+                "mouseOver~":"images/任务管理/2行2列_u175_mouseOver.png"}},
+{
+              "id":"94e8d9f88a5049b780f52dc5adf8dfd4",
+              "label":"2行4列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF0000FF,
+                  "opacity":1},
+                "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":174,
+                  "y":81},
+                "size":{
+                  "width":192,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"010e71fa95274a55b5c1742290e2c493",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF0000FF,
+                      "opacity":1},
+                    "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":174,
+                      "y":81},
+                    "size":{
+                      "width":192,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "interactionMap":{
+                "onClick":{
+                  "description":"OnClick",
+                  "cases":[{
+                      "description":"用例 1",
+                      "isNewIfGroup":false,
+                      "actions":[{
+                          "action":"linkWindow",
+                          "description":"在 新窗口/标签页 打开 任务详情",
+                          "target":{
+                            "targetType":"page",
+                            "url":"任务详情.html",
+                            "includeVariables":true},
+                          "linkType":"new"}]}]}},
+              "tabbable":true,
+              "images":{
+                "normal~":"images/任务管理/2行4列_u177.png",
+                "selected~":"images/任务管理/1行4列_u157_selected.png",
+                "mouseOver~":"images/任务管理/2行4列_u177_mouseOver.png"}},
+{
+              "id":"e7964ccab6b541379411d8443a0aabb6",
+              "label":"2行7列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":493,
+                  "y":81},
+                "size":{
+                  "width":119,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"7f8963f706514a59b7646ff5cccad49d",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":493,
+                      "y":81},
+                    "size":{
+                      "width":119,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/2行7列_u181.png",
+                "selected~":"images/任务管理/1行7列_u161_selected.png",
+                "mouseOver~":"images/任务管理/2行7列_u181_mouseOver.png"}},
+{
+              "id":"7cf05bf59c024d7aa6c45d9359f03ada",
+              "label":"2行8列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":739,
+                  "y":81},
+                "size":{
+                  "width":68,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"49a2a7fe54b843709c4f87e939ccc0c8",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":739,
+                      "y":81},
+                    "size":{
+                      "width":68,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/2行8列_u185.png",
+                "selected~":"images/任务管理/1行8列_u165_selected.png",
+                "mouseOver~":"images/任务管理/2行8列_u185_mouseOver.png"}},
+{
+              "id":"3d19010a7da74f0eb85b8b1a82bc7d1d",
+              "label":"2行9列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":807,
+                  "y":81},
+                "size":{
+                  "width":88,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"a8fc824ff0d942ac95c560c27384a0eb",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":807,
+                      "y":81},
+                    "size":{
+                      "width":88,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/2行9列_u187.png",
+                "selected~":"images/任务管理/1行9列_u167_selected.png",
+                "mouseOver~":"images/任务管理/2行9列_u187_mouseOver.png"}},
+{
+              "id":"09916c6c04ad4e3b8326cea9cee3a568",
+              "label":"3行1列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":0,
+                  "y":122},
+                "size":{
+                  "width":71,
+                  "height":42}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"4590ca90db354e2da636eb5f775ef116",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":0,
+                      "y":122},
+                    "size":{
+                      "width":71,
+                      "height":42}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/3行1列_u193.png",
+                "selected~":"images/任务管理/3行1列_u193_selected.png"}},
+{
+              "id":"204614045cef449cb802ceddeffed88d",
+              "label":"3行2列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":71,
+                  "y":122},
+                "size":{
+                  "width":103,
+                  "height":42}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"a9b85a3c7c094c6d9dca31e8f252b8ce",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":71,
+                      "y":122},
+                    "size":{
+                      "width":103,
+                      "height":42}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/3行2列_u195.png",
+                "selected~":"images/任务管理/3行2列_u195_selected.png"}},
+{
+              "id":"5b7a5cb119d547279e99ec3b15fcb2ad",
+              "label":"3行4列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF0000FF,
+                  "opacity":1},
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":174,
+                  "y":122},
+                "size":{
+                  "width":192,
+                  "height":42}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"f9525ace423e420894245f1ba67760d8",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF0000FF,
+                      "opacity":1},
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":174,
+                      "y":122},
+                    "size":{
+                      "width":192,
+                      "height":42}},
+                  "adaptiveStyles":{
+}}],
+              "interactionMap":{
+                "onClick":{
+                  "description":"OnClick",
+                  "cases":[{
+                      "description":"用例 1",
+                      "isNewIfGroup":false,
+                      "actions":[{
+                          "action":"linkWindow",
+                          "description":"在 当前窗口 打开 任务详情",
+                          "target":{
+                            "targetType":"page",
+                            "url":"任务详情.html",
+                            "includeVariables":true},
+                          "linkType":"current"}]}]}},
+              "tabbable":true,
+              "images":{
+                "normal~":"images/任务管理/3行4列_u197.png",
+                "selected~":"images/任务管理/3行4列_u197_selected.png"}},
+{
+              "id":"b8b44f5e9e964ff1a3d471e9a4ec927c",
+              "label":"3行7列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":493,
+                  "y":122},
+                "size":{
+                  "width":119,
+                  "height":42}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"97bf59a25c504c43b72ceb25738c0ad7",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":493,
+                      "y":122},
+                    "size":{
+                      "width":119,
+                      "height":42}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/3行7列_u201.png",
+                "selected~":"images/任务管理/3行7列_u201_selected.png"}},
+{
+              "id":"aa931a22f2114d37a624c19278b3dc12",
+              "label":"3行8列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":739,
+                  "y":122},
+                "size":{
+                  "width":68,
+                  "height":42}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"344c77bdfa55404e81e13f9d45eefbd3",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":739,
+                      "y":122},
+                    "size":{
+                      "width":68,
+                      "height":42}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/3行8列_u205.png",
+                "selected~":"images/任务管理/3行8列_u205_selected.png"}},
+{
+              "id":"c9dc32e4f48d4a588ebd0ec5a89ce24e",
+              "label":"3行9列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":807,
+                  "y":122},
+                "size":{
+                  "width":88,
+                  "height":42}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"8abeb76f5a6a4570aa3f8e605c7be3fe",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":807,
+                      "y":122},
+                    "size":{
+                      "width":88,
+                      "height":42}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/3行9列_u207.png",
+                "selected~":"images/任务管理/3行9列_u207_selected.png"}},
+{
+              "id":"bf77bd09fe0b4daca1f2bb3abd7ec894",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"3f16fa0d143040468230063abc899202",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "size":{
+                  "width":71,
+                  "height":40}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"8ccd120d10f64def87bbccfb656f608c",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"3f16fa0d143040468230063abc899202",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "size":{
+                      "width":71,
+                      "height":40}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u133.png",
+                "selected~":"images/任务管理/u133_selected.png"}},
+{
+              "id":"6c72438cf2964588b7bfd1d000e29323",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"3f16fa0d143040468230063abc899202",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":71,
+                  "y":0},
+                "size":{
+                  "width":103,
+                  "height":40}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"7d9462cd54794951a4204078da3c3d24",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Microsoft YaHei'",
+                    "baseStyle":"3f16fa0d143040468230063abc899202",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":71,
+                      "y":0},
+                    "size":{
+                      "width":103,
+                      "height":40}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u135.png",
+                "selected~":"images/任务管理/u135_selected.png"}},
+{
+              "id":"dfbc8d8f6d074273acc8e06d89395d4f",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"3f16fa0d143040468230063abc899202",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":174,
+                  "y":0},
+                "size":{
+                  "width":192,
+                  "height":40}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"fc93df3308bd4b0bbb5391b1b3377230",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Microsoft YaHei'",
+                    "baseStyle":"3f16fa0d143040468230063abc899202",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":174,
+                      "y":0},
+                    "size":{
+                      "width":192,
+                      "height":40}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u137.png",
+                "selected~":"images/任务管理/u137_selected.png"}},
+{
+              "id":"3910cfe4931445a7a49f85c30c4fce0d",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"3f16fa0d143040468230063abc899202",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":493,
+                  "y":0},
+                "size":{
+                  "width":119,
+                  "height":40}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"0603e2f05fb94c7892a319488fce407b",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Microsoft YaHei'",
+                    "baseStyle":"3f16fa0d143040468230063abc899202",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":493,
+                      "y":0},
+                    "size":{
+                      "width":119,
+                      "height":40}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u141.png",
+                "selected~":"images/任务管理/u141_selected.png"}},
+{
+              "id":"2142b93e0524435b8ada02809d2f8f22",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"3f16fa0d143040468230063abc899202",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":739,
+                  "y":0},
+                "size":{
+                  "width":68,
+                  "height":40}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"60609e48a2864d608a805db19f1459ca",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Microsoft YaHei'",
+                    "baseStyle":"3f16fa0d143040468230063abc899202",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":739,
+                      "y":0},
+                    "size":{
+                      "width":68,
+                      "height":40}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u145.png",
+                "selected~":"images/任务管理/u145_selected.png"}},
+{
+              "id":"c65f7f1cf81646e6bbcbd4d3c8cd31f4",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"3f16fa0d143040468230063abc899202",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":807,
+                  "y":0},
+                "size":{
+                  "width":88,
+                  "height":40}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"5d914487007a40e59506bd71bba26cf8",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Microsoft YaHei'",
+                    "baseStyle":"3f16fa0d143040468230063abc899202",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":807,
+                      "y":0},
+                    "size":{
+                      "width":88,
+                      "height":40}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u147.png",
+                "selected~":"images/任务管理/u147_selected.png"}},
+{
+              "id":"fcc837fc3d804178801e0ebd000dee87",
+              "label":"1行1列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":0,
+                  "y":40},
+                "size":{
+                  "width":71,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"2531b9df84714176a0e2f10e38a41dd9",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":0,
+                      "y":40},
+                    "size":{
+                      "width":71,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/1行1列_u153.png",
+                "selected~":"images/任务管理/1行1列_u153_selected.png"}},
+{
+              "id":"6fbc07c1ca9446f3bb15d3ab42f0256c",
+              "label":"1行2列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":71,
+                  "y":40},
+                "size":{
+                  "width":103,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"2d0167ec499f4acd826e39e41d6405c4",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":71,
+                      "y":40},
+                    "size":{
+                      "width":103,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/1行2列_u155.png",
+                "selected~":"images/任务管理/1行2列_u155_selected.png"}},
+{
+              "id":"8051b19969d44d06a03e2158ee2c5b2e",
+              "label":"1行4列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF0000FF,
+                  "opacity":1},
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":174,
+                  "y":40},
+                "size":{
+                  "width":192,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"f7804d890ad9464db0f9d65b6b2267ce",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF0000FF,
+                      "opacity":1},
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":174,
+                      "y":40},
+                    "size":{
+                      "width":192,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "interactionMap":{
+                "onClick":{
+                  "description":"OnClick",
+                  "cases":[{
+                      "description":"用例 1",
+                      "isNewIfGroup":false,
+                      "actions":[{
+                          "action":"linkWindow",
+                          "description":"在 新窗口/标签页 打开 任务详情",
+                          "target":{
+                            "targetType":"page",
+                            "url":"任务详情.html",
+                            "includeVariables":true},
+                          "linkType":"new"}]}]}},
+              "tabbable":true,
+              "images":{
+                "normal~":"images/任务管理/1行4列_u157.png",
+                "selected~":"images/任务管理/1行4列_u157_selected.png"}},
+{
+              "id":"d158eb171b2b4643a113778a862877fb",
+              "label":"1行7列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":493,
+                  "y":40},
+                "size":{
+                  "width":119,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"7cf54a5cb4b04ff2b20668a0e39acb75",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":493,
+                      "y":40},
+                    "size":{
+                      "width":119,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/1行7列_u161.png",
+                "selected~":"images/任务管理/1行7列_u161_selected.png"}},
+{
+              "id":"e68fbbb68cf743b585a9d173fa2cd1f2",
+              "label":"1行8列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":739,
+                  "y":40},
+                "size":{
+                  "width":68,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"81febbe597f3422ebd9c67f2c8cf5cca",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":739,
+                      "y":40},
+                    "size":{
+                      "width":68,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/1行8列_u165.png",
+                "selected~":"images/任务管理/1行8列_u165_selected.png"}},
+{
+              "id":"c5bcf998b79040c89acb1f99cddd3715",
+              "label":"1行9列",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":807,
+                  "y":40},
+                "size":{
+                  "width":88,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"08d471af7f8a4f7ca75776d497b682fd",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":807,
+                      "y":40},
+                    "size":{
+                      "width":88,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/1行9列_u167.png",
+                "selected~":"images/任务管理/1行9列_u167_selected.png"}},
+{
+              "id":"f76c43f223824d3da597e51a2465636d",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"3f16fa0d143040468230063abc899202",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":895,
+                  "y":0},
+                "size":{
+                  "width":79,
+                  "height":40}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"c7cfc3754b314f6489d9d999cbba8bf3",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Microsoft YaHei'",
+                    "baseStyle":"3f16fa0d143040468230063abc899202",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":895,
+                      "y":0},
+                    "size":{
+                      "width":79,
+                      "height":40}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u149.png",
+                "selected~":"images/任务管理/u149_selected.png"}},
+{
+              "id":"827a91e6ce5d47de986e7711d3bfce5b",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":895,
+                  "y":40},
+                "size":{
+                  "width":79,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"1278a45451e942e6b0da6a9c57a8704e",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":895,
+                      "y":40},
+                    "size":{
+                      "width":79,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u169.png",
+                "selected~":"images/任务管理/u169_selected.png"}},
+{
+              "id":"663613ad2cfe45d086604dc48865ed46",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":895,
+                  "y":81},
+                "size":{
+                  "width":79,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"49635cd209614a0295dc445ea1c7ad40",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":895,
+                      "y":81},
+                    "size":{
+                      "width":79,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u189.png",
+                "selected~":"images/任务管理/u169_selected.png",
+                "mouseOver~":"images/任务管理/u189_mouseOver.png"}},
+{
+              "id":"d6c8e3fd5f5447a69283935aa277a2ca",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":895,
+                  "y":122},
+                "size":{
+                  "width":79,
+                  "height":42}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"c4bdde2eddd04963bbd2f82caf44b030",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":895,
+                      "y":122},
+                    "size":{
+                      "width":79,
+                      "height":42}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u209.png",
+                "selected~":"images/任务管理/u209_selected.png"}},
+{
+              "id":"23edd008ab24457b8b633574c50fc881",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"3f16fa0d143040468230063abc899202",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":974,
+                  "y":0},
+                "size":{
+                  "width":122,
+                  "height":40}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"beef32870f1f411a88cf3d9080715f4a",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Microsoft YaHei'",
+                    "baseStyle":"3f16fa0d143040468230063abc899202",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":974,
+                      "y":0},
+                    "size":{
+                      "width":122,
+                      "height":40}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u151.png",
+                "selected~":"images/任务管理/u151_selected.png"}},
+{
+              "id":"5a5dc7f9fd874031a09640114541f111",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":974,
+                  "y":40},
+                "size":{
+                  "width":122,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"06a119a08a634dfc90e9b89fc02137d7",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":974,
+                      "y":40},
+                    "size":{
+                      "width":122,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u171.png",
+                "selected~":"images/任务管理/u171_selected.png"}},
+{
+              "id":"ba60e446c56a4fb8a7a5660d4c083ed3",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":974,
+                  "y":81},
+                "size":{
+                  "width":122,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"46d9cf50eabe428082179f8d724d91af",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":974,
+                      "y":81},
+                    "size":{
+                      "width":122,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u191.png",
+                "selected~":"images/任务管理/u171_selected.png",
+                "mouseOver~":"images/任务管理/u191_mouseOver.png"}},
+{
+              "id":"3be026f20cbb49469464ec031c2cf888",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":974,
+                  "y":122},
+                "size":{
+                  "width":122,
+                  "height":42}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"d55ee09ad1774e5b9619e02428881975",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":974,
+                      "y":122},
+                    "size":{
+                      "width":122,
+                      "height":42}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u211.png",
+                "selected~":"images/任务管理/u211_selected.png"}},
+{
+              "id":"92f02160e12b408696ba4ec70f201386",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"3f16fa0d143040468230063abc899202",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":366,
+                  "y":0},
+                "size":{
+                  "width":127,
+                  "height":40}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"ba3e7523fc5048df8335df5d5e792a15",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Microsoft YaHei'",
+                    "baseStyle":"3f16fa0d143040468230063abc899202",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":366,
+                      "y":0},
+                    "size":{
+                      "width":127,
+                      "height":40}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u139.png",
+                "selected~":"images/任务管理/u139_selected.png"}},
+{
+              "id":"3d0cde80eaa24aabbadcf8a55b192fac",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":366,
+                  "y":40},
+                "size":{
+                  "width":127,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"3cb438b49ad74730a2363e1653926e08",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":366,
+                      "y":40},
+                    "size":{
+                      "width":127,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u159.png",
+                "selected~":"images/任务管理/u159_selected.png"}},
+{
+              "id":"cc405b487ec547dfad04c89ba9d2c5f7",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":366,
+                  "y":81},
+                "size":{
+                  "width":127,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"88279536bdce4aebb3e03426f9e0b670",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":366,
+                      "y":81},
+                    "size":{
+                      "width":127,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u179.png",
+                "selected~":"images/任务管理/u159_selected.png",
+                "mouseOver~":"images/任务管理/u179_mouseOver.png"}},
+{
+              "id":"dff02fb7592d456bbe0e6a03e6c9fb98",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":366,
+                  "y":122},
+                "size":{
+                  "width":127,
+                  "height":42}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"e47938100acd46ea899b52e27c654435",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":366,
+                      "y":122},
+                    "size":{
+                      "width":127,
+                      "height":42}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u199.png",
+                "selected~":"images/任务管理/u199_selected.png"}},
+{
+              "id":"580a0213556f42a498074d13078552ab",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"3f16fa0d143040468230063abc899202",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":612,
+                  "y":0},
+                "size":{
+                  "width":127,
+                  "height":40}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"36f25efd7660400d9d40b378bf178e69",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Microsoft YaHei'",
+                    "baseStyle":"3f16fa0d143040468230063abc899202",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":612,
+                      "y":0},
+                    "size":{
+                      "width":127,
+                      "height":40}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u139.png",
+                "selected~":"images/任务管理/u139_selected.png"}},
+{
+              "id":"49dd4b88af124ed5a66655aa6a74b3ec",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":612,
+                  "y":40},
+                "size":{
+                  "width":127,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"54f21e6ebc9e4456bf8de3cbc8536744",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":612,
+                      "y":40},
+                    "size":{
+                      "width":127,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u159.png",
+                "selected~":"images/任务管理/u159_selected.png"}},
+{
+              "id":"4e0a4c8e38bf42d09f3f21c0aa0e4461",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":612,
+                  "y":81},
+                "size":{
+                  "width":127,
+                  "height":41}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"804cfca1d00e49a2a831d5ec3aebf3e8",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"0d5ea84dc9f149d4a6d725634ebdcfe5",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "baseStyle":"71b013c767764d94bce2a7da0cfc2444"},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":612,
+                      "y":81},
+                    "size":{
+                      "width":127,
+                      "height":41}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u179.png",
+                "selected~":"images/任务管理/u159_selected.png",
+                "mouseOver~":"images/任务管理/u179_mouseOver.png"}},
+{
+              "id":"b70105a710c04fe38802f09ae6e2738d",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+                    "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                "location":{
+                  "x":612,
+                  "y":122},
+                "size":{
+                  "width":127,
+                  "height":42}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"b1f6e9aa31394a198da14f8f721de5f0",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"797c89b59b344e7eb9865f796bf6821e",
+                    "stateStyles":{
+                      "mouseOver":{
+},
+                      "selected":{
+                        "baseStyle":"bf5f3363077a4bb1870ae94f307023b7"}},
+                    "location":{
+                      "x":612,
+                      "y":122},
+                    "size":{
+                      "width":127,
+                      "height":42}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/任务管理/u199.png",
+                "selected~":"images/任务管理/u199_selected.png"}}]},
+{
+          "id":"e5d893922da942d295f9ff11e401f7ce",
+          "label":"1",
+          "type":"checkbox",
+          "styleType":"checkbox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":266,
+              "y":342},
+            "size":{
+              "width":16,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"727325232a774c6790ae65ff55cee650",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":266,
+                  "y":342},
+                "size":{
+                  "width":16,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1<br> (If 选中状态值 当前部件 = 真)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":true}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 2 = &quot;true&quot;, 且<br> 选中状态值 3 = &quot;true&quot;, 且<br> 选中状态值 4 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["52932d20b5b943b9a7dbb528cba4f09c"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["e227dcf3e9f043f296c58855569972c1"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["11242851ed9749708af76051aa239f59"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"Case 2<br> (Else If 选中状态值 当前部件 = 假)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":false}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 2 = &quot;false&quot;, 且<br> 选中状态值 3 = &quot;false&quot;, 且<br> 选中状态值 4 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["52932d20b5b943b9a7dbb528cba4f09c"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["e227dcf3e9f043f296c58855569972c1"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["11242851ed9749708af76051aa239f59"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}}]}]}}},
+{
+          "id":"52932d20b5b943b9a7dbb528cba4f09c",
+          "label":"2",
+          "type":"checkbox",
+          "styleType":"checkbox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":266,
+              "y":382},
+            "size":{
+              "width":16,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a3ca625de01f483b9bf3016547cc42ae",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":266,
+                  "y":382},
+                "size":{
+                  "width":16,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1<br> (If 选中状态值 2 = 真)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["52932d20b5b943b9a7dbb528cba4f09c"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":true}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 1行1列 = &quot;true&quot;, 且<br> 选中状态值 1行2列 = &quot;true&quot;, 且<br> 选中状态值 不明 = &quot;true&quot;, 且<br> 选中状态值 1行4列 = &quot;true&quot;, 且<br> 选中状态值 不明 = &quot;true&quot;, 且<br> 选中状态值 不明 = &quot;true&quot;, 且<br> 选中状态值 1行7列 = &quot;true&quot;, 且<br> 选中状态值 1行8列 = &quot;true&quot;, 且<br> 选中状态值 1行9列 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["fcc837fc3d804178801e0ebd000dee87"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["6fbc07c1ca9446f3bb15d3ab42f0256c"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["8051b19969d44d06a03e2158ee2c5b2e"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["d158eb171b2b4643a113778a862877fb"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["e68fbbb68cf743b585a9d173fa2cd1f2"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c5bcf998b79040c89acb1f99cddd3715"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"Case 2<br> (Else If 选中状态值 当前部件 = 假)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":false}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 1行1列 = &quot;false&quot;, 且<br> 选中状态值 1行2列 = &quot;false&quot;, 且<br> 选中状态值 不明 = &quot;false&quot;, 且<br> 选中状态值 1行4列 = &quot;false&quot;, 且<br> 选中状态值 不明 = &quot;false&quot;, 且<br> 选中状态值 不明 = &quot;false&quot;, 且<br> 选中状态值 1行7列 = &quot;false&quot;, 且<br> 选中状态值 1行8列 = &quot;false&quot;, 且<br> 选中状态值 1行9列 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["fcc837fc3d804178801e0ebd000dee87"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["6fbc07c1ca9446f3bb15d3ab42f0256c"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["8051b19969d44d06a03e2158ee2c5b2e"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["d158eb171b2b4643a113778a862877fb"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["e68fbbb68cf743b585a9d173fa2cd1f2"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c5bcf998b79040c89acb1f99cddd3715"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}}]}]}}},
+{
+          "id":"e227dcf3e9f043f296c58855569972c1",
+          "label":"3",
+          "type":"checkbox",
+          "styleType":"checkbox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":266,
+              "y":422},
+            "size":{
+              "width":16,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d2fe770734434ed2bbac98bc52e46c64",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":266,
+                  "y":422},
+                "size":{
+                  "width":16,
+                  "height":16}},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"11242851ed9749708af76051aa239f59",
+          "label":"4",
+          "type":"checkbox",
+          "styleType":"checkbox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":266,
+              "y":464},
+            "size":{
+              "width":16,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7ebf0a4d1b8e4609ac219b620663744e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":266,
+                  "y":464},
+                "size":{
+                  "width":16,
+                  "height":16}},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"6dbfbc12157a4adcb32ee6d9afaf6fce",
+          "label":"<label>",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'PingFang SC Regular', 'PingFang SC'",
+            "fontSize":"12px",
+            "fontWeight":"400",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF666666,
+              "opacity":1},
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "location":{
+              "x":1138,
+              "y":510},
+            "size":{
+              "width":120,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"058ffaef936046aa8e41686f800a1d65",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'PingFang SC Regular', 'PingFang SC'",
+                "fontSize":"12px",
+                "fontWeight":"400",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF666666,
+                  "opacity":1},
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "location":{
+                  "x":1138,
+                  "y":510},
+                "size":{
+                  "width":120,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"f1d3b974f64847c2984a7d0982a6d5b2",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "baseStyle":"15e62127db8246db94762628dc1a83aa",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "selected":{
+}},
+            "location":{
+              "x":1002,
+              "y":504},
+            "size":{
+              "width":32,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7dbae578c6924713a2d73ae9dafd78c5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"15e62127db8246db94762628dc1a83aa",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+}},
+                "location":{
+                  "x":1002,
+                  "y":504},
+                "size":{
+                  "width":32,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u223.png"}},
+{
+          "id":"1723db9049ec4bb384b7dde1d2af648e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "selected":true,
+          "style":{
+            "baseStyle":"15e62127db8246db94762628dc1a83aa",
+            "stateStyles":{
+              "mouseOver":{
+                "baseStyle":"d0db535678e2426d8e0a8462e6ca9b7a"},
+              "selected":{
+                "baseStyle":"d0db535678e2426d8e0a8462e6ca9b7a"}},
+            "location":{
+              "x":1034,
+              "y":504},
+            "size":{
+              "width":32,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1c8729ad35f54b908db256fcd88e156b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"15e62127db8246db94762628dc1a83aa",
+                "stateStyles":{
+                  "mouseOver":{
+                    "baseStyle":"d0db535678e2426d8e0a8462e6ca9b7a"},
+                  "selected":{
+                    "baseStyle":"d0db535678e2426d8e0a8462e6ca9b7a"}},
+                "location":{
+                  "x":1034,
+                  "y":504},
+                "size":{
+                  "width":32,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u223.png",
+            "selected~":"images/任务管理/u225_selected.png",
+            "mouseOver~":"images/任务管理/u225_selected.png"}},
+{
+          "id":"a10f4c636a734b60992abbe822d8dfc9",
+          "label":"2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "baseStyle":"15e62127db8246db94762628dc1a83aa",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "selected":{
+}},
+            "location":{
+              "x":1064,
+              "y":504},
+            "size":{
+              "width":32,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4411dfb1329f4af09bf2dccf780efd76",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"15e62127db8246db94762628dc1a83aa",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+}},
+                "location":{
+                  "x":1064,
+                  "y":504},
+                "size":{
+                  "width":32,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u223.png"}},
+{
+          "id":"86327d5b72d24e5c8f4b24fe494743a0",
+          "label":"3",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "baseStyle":"15e62127db8246db94762628dc1a83aa",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "selected":{
+}},
+            "location":{
+              "x":1096,
+              "y":504},
+            "size":{
+              "width":32,
+              "height":32},
+            "cornerRadiusTopLeft":"3"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e749edc28805484ea2209722af70f502",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"15e62127db8246db94762628dc1a83aa",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+}},
+                "location":{
+                  "x":1096,
+                  "y":504},
+                "size":{
+                  "width":32,
+                  "height":32},
+                "cornerRadiusTopLeft":"3"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/3_u229.png"}},
+{
+          "id":"e4827988f16c428692fced95f2d4405f",
+          "label":"1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"15e62127db8246db94762628dc1a83aa",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "selected":{
+}},
+            "location":{
+              "x":940,
+              "y":504},
+            "size":{
+              "width":32,
+              "height":32},
+            "cornerRadiusTopLeft":"3"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4e93677243bd46609efb5bf5ef664cb4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"15e62127db8246db94762628dc1a83aa",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+}},
+                "location":{
+                  "x":940,
+                  "y":504},
+                "size":{
+                  "width":32,
+                  "height":32},
+                "cornerRadiusTopLeft":"3"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[]}]}},
+          "images":{
+            "normal~":"images/任务管理/1_u231.png"}},
+{
+          "id":"f5015c9d28aa44fd87dfabfa995b3012",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "baseStyle":"15e62127db8246db94762628dc1a83aa",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "selected":{
+}},
+            "location":{
+              "x":972,
+              "y":504},
+            "size":{
+              "width":32,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"28ffeb39406740c28b2e32a78d6ea67a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"15e62127db8246db94762628dc1a83aa",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+}},
+                "location":{
+                  "x":972,
+                  "y":504},
+                "size":{
+                  "width":32,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u223.png"}},
+{
+          "id":"eaa764ba5e3148d59770b8513e9f69cd",
+          "label":"刷新",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+},
+              "selected":{
+}},
+            "location":{
+              "x":946,
+              "y":510},
+            "size":{
+              "width":20,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"72e15c64d89b449db5ce560143f30918",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "selected":{
+}},
+                "location":{
+                  "x":946,
+                  "y":510},
+                "size":{
+                  "width":20,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/刷新_u235.png"}},
+{
+          "id":"ee4c5e2332c44c71b7d7d17aea9dfd86",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":978,
+              "y":510},
+            "size":{
+              "width":20,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1373c42d04df435aa2226eef85fdf430",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":978,
+                  "y":510},
+                "size":{
+                  "width":20,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u237.png"}},
+{
+          "id":"8b0e54fa60184057b29d4305b3077fa2",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1008,
+              "y":510},
+            "size":{
+              "width":20,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c58c17a4624f45869e31c55ce7dd3ccc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":1008,
+                  "y":510},
+                "size":{
+                  "width":20,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u239.png"}},
+{
+          "id":"5afb1616123c45c6b22e56ee34a470fa",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1070,
+              "y":510},
+            "size":{
+              "width":20,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e74d78fd22944e72a9eb298ee6db8177",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":1070,
+                  "y":510},
+                "size":{
+                  "width":20,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u241.png"}},
+{
+          "id":"e47ec447b90244feac4eb9fb812ad78f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1102,
+              "y":510},
+            "size":{
+              "width":20,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1ec0236d984747a48d0c2c5bc8558761",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":1102,
+                  "y":510},
+                "size":{
+                  "width":20,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u243.png"}},
+{
+          "id":"c641ed7848d54629a73ab8e0fba2615a",
+          "label":"输入框",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "baseStyle":"4cffa5c31cf249cf92b2f933adaba86a",
+            "stateStyles":{
+              "mouseOver":{
+},
+              "mouseDown":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "selected":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "disabled":{
+                "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+            "location":{
+              "x":1152,
+              "y":504},
+            "size":{
+              "width":32,
+              "height":32},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE9E9E9},
+            "cornerRadiusTopLeft":"3"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"983a86830f30452e9f736d516126fe9b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"4cffa5c31cf249cf92b2f933adaba86a",
+                "stateStyles":{
+                  "mouseOver":{
+},
+                  "mouseDown":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "selected":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "disabled":{
+                    "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+                "location":{
+                  "x":1152,
+                  "y":504},
+                "size":{
+                  "width":32,
+                  "height":32},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFE9E9E9},
+                "cornerRadiusTopLeft":"3"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/输入框_u245.png",
+            "selected~":"images/任务管理/输入框_u245_selected.png",
+            "mouseDown~":"images/任务管理/输入框_u245_selected.png",
+            "disabled~":"images/任务管理/输入框_u245_disabled.png"}},
+{
+          "id":"4cf91b8a45a04afca2c60971868715b9",
+          "label":"文字区域",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+            "stateStyles":{
+              "hint":{
+                "fontName":"'Microsoft YaHei'",
+                "horizontalAlignment":"left",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFAFAFAF,
+                  "opacity":1}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":1156,
+              "y":504},
+            "size":{
+              "width":22,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 输入框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c641ed7848d54629a73ab8e0fba2615a"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1<br> (If 变量 abc = &quot;0&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetGlobalVariableValue",
+                      "arguments":[{
+                          "exprType":"globalVariableLiteral",
+                          "variableName":"abc"}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"0",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 输入框 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c641ed7848d54629a73ab8e0fba2615a"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"Case 2<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 输入框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c641ed7848d54629a73ab8e0fba2615a"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]},
+            "onFocus":{
+              "description":"OnFocus",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 输入框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c641ed7848d54629a73ab8e0fba2615a"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]}]}}]}]},
+            "onLostFocus":{
+              "description":"OnLostFocus",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 输入框 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["c641ed7848d54629a73ab8e0fba2615a"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "placeholderText":"请输入文字"},
+{
+          "id":"2cdf8c8cef3f48b8b18584a5215d3bfb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF323232},
+            "location":{
+              "x":377,
+              "y":346},
+            "size":{
+              "width":6,
+              "height":3},
+            "borderWidth":"-1",
+            "linePattern":"none"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"db680fc27ce24e12bf9f267a9d9075ad",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF323232},
+                "location":{
+                  "x":377,
+                  "y":346},
+                "size":{
+                  "width":6,
+                  "height":3},
+                "borderWidth":"-1",
+                "linePattern":"none"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u248.png"}},
+{
+          "id":"54e3be2cb99642ddabe762827040c914",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF323232},
+            "location":{
+              "x":377,
+              "y":352},
+            "size":{
+              "width":6,
+              "height":3},
+            "borderWidth":"-1",
+            "linePattern":"none"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"420bed64f0864bbbb34cd79e7222b45b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF323232},
+                "location":{
+                  "x":377,
+                  "y":352},
+                "size":{
+                  "width":6,
+                  "height":3},
+                "borderWidth":"-1",
+                "linePattern":"none"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u250.png"}},
+{
+          "id":"8e976b3f1b5642feb1bb24c85e007205",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF323232},
+            "location":{
+              "x":489,
+              "y":346},
+            "size":{
+              "width":6,
+              "height":3},
+            "borderWidth":"-1",
+            "linePattern":"none"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5d643ca27fd14e0290e404940b18da41",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF323232},
+                "location":{
+                  "x":489,
+                  "y":346},
+                "size":{
+                  "width":6,
+                  "height":3},
+                "borderWidth":"-1",
+                "linePattern":"none"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u248.png"}},
+{
+          "id":"b72ff8e9902f4eba9ecf5d1b289bcfd0",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF323232},
+            "location":{
+              "x":489,
+              "y":352},
+            "size":{
+              "width":6,
+              "height":3},
+            "borderWidth":"-1",
+            "linePattern":"none"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f51c70c882f6477a96d7325596a0cc86",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF323232},
+                "location":{
+                  "x":489,
+                  "y":352},
+                "size":{
+                  "width":6,
+                  "height":3},
+                "borderWidth":"-1",
+                "linePattern":"none"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/任务管理/u250.png"}},
+{
+          "id":"cb1b8f45d47c40e08b4260b3ef0b3b5d",
+          "label":"文本框",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+            "stateStyles":{
+              "mouseDown":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "selected":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "disabled":{
+                "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+            "location":{
+              "x":740,
+              "y":192},
+            "size":{
+              "width":230,
+              "height":34}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"32d7e74e3de6425097261dc475cde874",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+                "stateStyles":{
+                  "mouseDown":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "selected":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "disabled":{
+                    "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+                "location":{
+                  "x":740,
+                  "y":192},
+                "size":{
+                  "width":230,
+                  "height":34}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 options",
+                      "objectsToFades":[{
+                          "objectPath":["633eefe58b104f6a94039892e3f8747c"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 当前部件 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>隐藏 下拉默认",
+                      "objectsToFades":[{
+                          "objectPath":["94d8eec5f2934e2f87a3b96b4feeeaa9"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6eb656614fde45e7bdf064dc74ed52d9"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["cb1b8f45d47c40e08b4260b3ef0b3b5d"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>下拉选中,<br>隐藏 下拉默认,<br>(Image)",
+                      "objectsToFades":[{
+                          "objectPath":["6a48f54771324ba9bbf53dfe0a62f25a"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6eb656614fde45e7bdf064dc74ed52d9"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["94d8eec5f2934e2f87a3b96b4feeeaa9"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["29bf16aa41304a5ea681c91db669ddb2"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1<br> (If 可见性 options = 假)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetVisibility",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["633eefe58b104f6a94039892e3f8747c"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":false}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["cb1b8f45d47c40e08b4260b3ef0b3b5d"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["6eb656614fde45e7bdf064dc74ed52d9"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["94d8eec5f2934e2f87a3b96b4feeeaa9"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6a48f54771324ba9bbf53dfe0a62f25a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["29bf16aa41304a5ea681c91db669ddb2"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"Case 2<br> (Else If 可见性 options = 真)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetVisibility",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["633eefe58b104f6a94039892e3f8747c"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":true}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["cb1b8f45d47c40e08b4260b3ef0b3b5d"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/任务管理/文本框_u256.png",
+            "selected~":"images/任务管理/文本框_u256_selected.png",
+            "mouseDown~":"images/任务管理/文本框_u256_selected.png",
+            "disabled~":"images/任务管理/文本框_u256_disabled.png"}},
+{
+          "id":"6a48f54771324ba9bbf53dfe0a62f25a",
+          "label":"下拉选中",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":955,
+              "y":204},
+            "size":{
+              "width":7,
+              "height":11}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"bf96af4d98b0474589896906c83e1839",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"6eb656614fde45e7bdf064dc74ed52d9",
+                  "label":"下拉选中",
+                  "parentDynamicPanel":"6a48f54771324ba9bbf53dfe0a62f25a",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":9,
+                      "height":9}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"58f92d88a74b43108c673954f7abb857",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"6a48f54771324ba9bbf53dfe0a62f25a",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":9,
+                          "height":9}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/下拉选中_u100.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"94d8eec5f2934e2f87a3b96b4feeeaa9",
+          "label":"下拉默认",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":955,
+              "y":204},
+            "size":{
+              "width":7,
+              "height":11}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"13eb1ab1776942f49b724cdf55d59bdd",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"29bf16aa41304a5ea681c91db669ddb2",
+                  "label":"",
+                  "parentDynamicPanel":"94d8eec5f2934e2f87a3b96b4feeeaa9",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":9,
+                      "height":9}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"f8cfdd3c77d14cceb488530633a1fd45",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"94d8eec5f2934e2f87a3b96b4feeeaa9",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":9,
+                          "height":9}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/u103.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"633eefe58b104f6a94039892e3f8747c",
+          "label":"options",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":740,
+              "y":225},
+            "size":{
+              "width":230,
+              "height":127},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["cb1b8f45d47c40e08b4260b3ef0b3b5d"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>下拉选中,<br>隐藏 下拉默认,<br>(Image)",
+                      "objectsToFades":[{
+                          "objectPath":["6a48f54771324ba9bbf53dfe0a62f25a"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6eb656614fde45e7bdf064dc74ed52d9"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["94d8eec5f2934e2f87a3b96b4feeeaa9"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["29bf16aa41304a5ea681c91db669ddb2"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["94d8eec5f2934e2f87a3b96b4feeeaa9"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6a48f54771324ba9bbf53dfe0a62f25a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6eb656614fde45e7bdf064dc74ed52d9"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["29bf16aa41304a5ea681c91db669ddb2"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onPanelStateChange":{
+              "description":"OnPanelStateChange",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["94d8eec5f2934e2f87a3b96b4feeeaa9"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6eb656614fde45e7bdf064dc74ed52d9"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6a48f54771324ba9bbf53dfe0a62f25a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["29bf16aa41304a5ea681c91db669ddb2"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"a3188a98e403450daba63dcfc14f2ac4",
+              "label":"show dropdown options",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"e3a78ab751f64407b6aeccab115337f0",
+                  "label":"dropDownBox",
+                  "parentDynamicPanel":"633eefe58b104f6a94039892e3f8747c",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Open Sans Regular', 'Open Sans'",
+                    "fontSize":"12px",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF606060,
+                      "opacity":1},
+                    "stateStyles":{
+                      "selected":{
+}},
+                    "location":{
+                      "x":0,
+                      "y":-19},
+                    "size":{
+                      "width":310,
+                      "height":133},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF2C4A93},
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":3,
+                      "offsetY":3,
+                      "blurRadius":7,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.0588235294117647}}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"b08985c6b93a4dc18b06caf185106dfc",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"633eefe58b104f6a94039892e3f8747c",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Open Sans Regular', 'Open Sans'",
+                        "fontSize":"12px",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF606060,
+                          "opacity":1},
+                        "stateStyles":{
+                          "selected":{
+}},
+                        "location":{
+                          "x":0,
+                          "y":-19},
+                        "size":{
+                          "width":310,
+                          "height":133},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93},
+                        "outerShadow":{
+                          "on":true,
+                          "offsetX":3,
+                          "offsetY":3,
+                          "blurRadius":7,
+                          "color":{
+                            "r":0,
+                            "g":0,
+                            "b":0,
+                            "a":0.0588235294117647}}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/dropdownbox_u106.png"}},
+{
+                  "id":"7d8f844148a94f80ac3f18bacf71c0fd",
+                  "label":"选项1",
+                  "parentDynamicPanel":"633eefe58b104f6a94039892e3f8747c",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":4},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"0e196eb3991349ad91345ac22aecf2bf",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"633eefe58b104f6a94039892e3f8747c",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":4},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["633eefe58b104f6a94039892e3f8747c"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[ This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["32d7e74e3de6425097261dc475cde874"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[ This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["cb1b8f45d47c40e08b4260b3ef0b3b5d"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["94d8eec5f2934e2f87a3b96b4feeeaa9"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["6eb656614fde45e7bdf064dc74ed52d9"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["6a48f54771324ba9bbf53dfe0a62f25a"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["29bf16aa41304a5ea681c91db669ddb2"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选项1 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["7d8f844148a94f80ac3f18bacf71c0fd"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;false&quot;, 且<br> 选中状态值 选型2 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["8437ae951e72474fb9d17f7cc69fcad2"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["5ecbf3b3851641f59a21dd470f90b62c"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}},
+{
+                  "id":"8437ae951e72474fb9d17f7cc69fcad2",
+                  "label":"选型3",
+                  "parentDynamicPanel":"633eefe58b104f6a94039892e3f8747c",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":77},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"f25990d8c6304516a1a00c716de697dd",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"633eefe58b104f6a94039892e3f8747c",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":77},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["633eefe58b104f6a94039892e3f8747c"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[&nbsp; This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["32d7e74e3de6425097261dc475cde874"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[  This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["cb1b8f45d47c40e08b4260b3ef0b3b5d"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["94d8eec5f2934e2f87a3b96b4feeeaa9"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["6eb656614fde45e7bdf064dc74ed52d9"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["6a48f54771324ba9bbf53dfe0a62f25a"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["29bf16aa41304a5ea681c91db669ddb2"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["8437ae951e72474fb9d17f7cc69fcad2"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选项1 = &quot;false&quot;, 且<br> 选中状态值 选型2 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["7d8f844148a94f80ac3f18bacf71c0fd"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["5ecbf3b3851641f59a21dd470f90b62c"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}},
+{
+                  "id":"5ecbf3b3851641f59a21dd470f90b62c",
+                  "label":"选型2",
+                  "parentDynamicPanel":"633eefe58b104f6a94039892e3f8747c",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":41},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"cb2fd3b7144b424585273650578c6a2d",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"633eefe58b104f6a94039892e3f8747c",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":41},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["633eefe58b104f6a94039892e3f8747c"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[&nbsp; This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["32d7e74e3de6425097261dc475cde874"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[  This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["cb1b8f45d47c40e08b4260b3ef0b3b5d"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["94d8eec5f2934e2f87a3b96b4feeeaa9"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["6eb656614fde45e7bdf064dc74ed52d9"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["6a48f54771324ba9bbf53dfe0a62f25a"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["29bf16aa41304a5ea681c91db669ddb2"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型2 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["5ecbf3b3851641f59a21dd470f90b62c"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;false&quot;, 且<br> 选中状态值 选项1 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["8437ae951e72474fb9d17f7cc69fcad2"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["7d8f844148a94f80ac3f18bacf71c0fd"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"ddb08ac12d0c413eadfabcaa70e3d55e",
+          "label":"文本框",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+            "stateStyles":{
+              "mouseDown":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "selected":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "disabled":{
+                "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+            "location":{
+              "x":357,
+              "y":192},
+            "size":{
+              "width":252,
+              "height":31}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ee388dc0b18d47f8b9182c215891e761",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+                "stateStyles":{
+                  "mouseDown":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "selected":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "disabled":{
+                    "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+                "location":{
+                  "x":357,
+                  "y":192},
+                "size":{
+                  "width":252,
+                  "height":31}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 options",
+                      "objectsToFades":[{
+                          "objectPath":["6747b65178f74519ad71da262e45693d"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 当前部件 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>隐藏 下拉默认",
+                      "objectsToFades":[{
+                          "objectPath":["0501ebc6af174c0aa406160216619fe4"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["66d00369e3414c2b965eda3cd8753d76"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["ddb08ac12d0c413eadfabcaa70e3d55e"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>下拉选中,<br>隐藏 下拉默认,<br>(Image)",
+                      "objectsToFades":[{
+                          "objectPath":["cfde11428ec04df09bcf6056736ee56d"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["66d00369e3414c2b965eda3cd8753d76"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0501ebc6af174c0aa406160216619fe4"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["53175eaded7e446aa343fbcee9f1a536"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1<br> (If 可见性 options = 假)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetVisibility",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["6747b65178f74519ad71da262e45693d"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":false}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["ddb08ac12d0c413eadfabcaa70e3d55e"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["66d00369e3414c2b965eda3cd8753d76"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0501ebc6af174c0aa406160216619fe4"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["cfde11428ec04df09bcf6056736ee56d"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["53175eaded7e446aa343fbcee9f1a536"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"Case 2<br> (Else If 可见性 options = 真)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetVisibility",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["6747b65178f74519ad71da262e45693d"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":true}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["ddb08ac12d0c413eadfabcaa70e3d55e"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/任务管理/文本框_u273.png",
+            "selected~":"images/任务管理/文本框_u273_selected.png",
+            "mouseDown~":"images/任务管理/文本框_u273_selected.png",
+            "disabled~":"images/任务管理/文本框_u273_disabled.png"}},
+{
+          "id":"6747b65178f74519ad71da262e45693d",
+          "label":"options",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":357,
+              "y":222},
+            "size":{
+              "width":252,
+              "height":140},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["ddb08ac12d0c413eadfabcaa70e3d55e"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>下拉选中,<br>隐藏 下拉默认,<br>(Image)",
+                      "objectsToFades":[{
+                          "objectPath":["cfde11428ec04df09bcf6056736ee56d"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["66d00369e3414c2b965eda3cd8753d76"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0501ebc6af174c0aa406160216619fe4"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["53175eaded7e446aa343fbcee9f1a536"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["0501ebc6af174c0aa406160216619fe4"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["cfde11428ec04df09bcf6056736ee56d"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["66d00369e3414c2b965eda3cd8753d76"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["53175eaded7e446aa343fbcee9f1a536"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onPanelStateChange":{
+              "description":"OnPanelStateChange",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["0501ebc6af174c0aa406160216619fe4"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["66d00369e3414c2b965eda3cd8753d76"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["cfde11428ec04df09bcf6056736ee56d"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["53175eaded7e446aa343fbcee9f1a536"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"a277b4c200314447bedab6670ec0f070",
+              "label":"show dropdown options",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"eaffdfa87267400592aeea7520d16556",
+                  "label":"dropDownBox",
+                  "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Open Sans Regular', 'Open Sans'",
+                    "fontSize":"12px",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF606060,
+                      "opacity":1},
+                    "stateStyles":{
+                      "selected":{
+}},
+                    "location":{
+                      "x":0,
+                      "y":-19},
+                    "size":{
+                      "width":310,
+                      "height":164},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF2C4A93},
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":3,
+                      "offsetY":3,
+                      "blurRadius":7,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.0588235294117647}}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"a352260557f74658b9b460a95402ab9b",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Open Sans Regular', 'Open Sans'",
+                        "fontSize":"12px",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF606060,
+                          "opacity":1},
+                        "stateStyles":{
+                          "selected":{
+}},
+                        "location":{
+                          "x":0,
+                          "y":-19},
+                        "size":{
+                          "width":310,
+                          "height":164},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93},
+                        "outerShadow":{
+                          "on":true,
+                          "offsetX":3,
+                          "offsetY":3,
+                          "blurRadius":7,
+                          "color":{
+                            "r":0,
+                            "g":0,
+                            "b":0,
+                            "a":0.0588235294117647}}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/dropdownbox_u276.png"}},
+{
+                  "id":"b86d4f82e6314343b16801106b067027",
+                  "label":"选项1",
+                  "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":35},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"6a6285b52cae4b9f87193a2709686280",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":35},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["6747b65178f74519ad71da262e45693d"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[ This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["ee388dc0b18d47f8b9182c215891e761"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[ This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["ddb08ac12d0c413eadfabcaa70e3d55e"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["0501ebc6af174c0aa406160216619fe4"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["66d00369e3414c2b965eda3cd8753d76"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["cfde11428ec04df09bcf6056736ee56d"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["53175eaded7e446aa343fbcee9f1a536"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选项1 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["b86d4f82e6314343b16801106b067027"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;false&quot;, 且<br> 选中状态值 选型2 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["663556d941d14bf4865349dfc40b9309"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["86c11d5242d34805875a8139fdc8e5f7"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}},
+{
+                  "id":"663556d941d14bf4865349dfc40b9309",
+                  "label":"选型3",
+                  "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":108},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"ab7ddc53ba2446a2abfd2d006354c259",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":108},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["6747b65178f74519ad71da262e45693d"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[&nbsp; This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["ee388dc0b18d47f8b9182c215891e761"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[  This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["ddb08ac12d0c413eadfabcaa70e3d55e"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["0501ebc6af174c0aa406160216619fe4"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["66d00369e3414c2b965eda3cd8753d76"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["cfde11428ec04df09bcf6056736ee56d"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["53175eaded7e446aa343fbcee9f1a536"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["663556d941d14bf4865349dfc40b9309"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选项1 = &quot;false&quot;, 且<br> 选中状态值 选型2 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["b86d4f82e6314343b16801106b067027"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["86c11d5242d34805875a8139fdc8e5f7"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}},
+{
+                  "id":"3a7d55bf9af849cba86e47f9fb38818d",
+                  "label":"textFieldContainer",
+                  "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"4cffa5c31cf249cf92b2f933adaba86a",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fontSize":"12px",
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "mouseDown":{
+                        "fontSize":"12px",
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "fontSize":"12px",
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "disabled":{
+                        "fontSize":"12px",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFCFCFCF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFF5F7F8}}},
+                    "location":{
+                      "x":3,
+                      "y":0},
+                    "size":{
+                      "width":303,
+                      "height":32},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF2C4A93},
+                    "cornerRadiusTopLeft":"0"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"80da2cf905b44d1d98e4ec932ee0a790",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"4cffa5c31cf249cf92b2f933adaba86a",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fontSize":"12px",
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "mouseDown":{
+                            "fontSize":"12px",
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "fontSize":"12px",
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "disabled":{
+                            "fontSize":"12px",
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFCFCFCF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFF5F7F8}}},
+                        "location":{
+                          "x":3,
+                          "y":0},
+                        "size":{
+                          "width":303,
+                          "height":32},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93},
+                        "cornerRadiusTopLeft":"0"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/textfieldcontainer_u282.png",
+                    "selected~":"images/任务管理/textfieldcontainer_u282.png",
+                    "mouseOver~":"images/任务管理/textfieldcontainer_u282.png",
+                    "mouseDown~":"images/任务管理/textfieldcontainer_u282.png",
+                    "disabled~":"images/任务管理/textfieldcontainer_u282_disabled.png"}},
+{
+                  "id":"08a328cbfabf41689eda2498c8e8f9ac",
+                  "label":"",
+                  "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+                    "stateStyles":{
+                      "hint":{
+                        "fontName":"'Microsoft YaHei'",
+                        "fontSize":"12px",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFAFAFAF,
+                          "opacity":1}}},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":10,
+                      "y":0},
+                    "size":{
+                      "width":290,
+                      "height":32}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onTextChange":{
+                      "description":"OnTextChange",
+                      "cases":[{
+                          "description":"用例 1<br> (If 焦点部件上的文字&nbsp; = 部件文字 选型2)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetFocusedWidgetText",
+                              "arguments":[]},
+                            "rightExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["86c11d5242d34805875a8139fdc8e5f7"]}]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型2 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["86c11d5242d34805875a8139fdc8e5f7"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选项1 = &quot;false&quot;, 且<br> 选中状态值 选型3 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["b86d4f82e6314343b16801106b067027"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["663556d941d14bf4865349dfc40b9309"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]},
+{
+                          "description":"用例 2<br> (Else If 焦点部件上的文字&nbsp; = 部件文字 选项1)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetFocusedWidgetText",
+                              "arguments":[]},
+                            "rightExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["b86d4f82e6314343b16801106b067027"]}]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选项1 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["b86d4f82e6314343b16801106b067027"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;false&quot;, 且<br> 选中状态值 选型2 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["663556d941d14bf4865349dfc40b9309"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["86c11d5242d34805875a8139fdc8e5f7"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]},
+{
+                          "description":"用例 3<br> (Else If 焦点部件上的文字&nbsp; = 部件文字 选型3)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetFocusedWidgetText",
+                              "arguments":[]},
+                            "rightExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["663556d941d14bf4865349dfc40b9309"]}]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["663556d941d14bf4865349dfc40b9309"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型2 = &quot;false&quot;, 且<br> 选中状态值 选项1 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["86c11d5242d34805875a8139fdc8e5f7"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["b86d4f82e6314343b16801106b067027"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]},
+                    "onFocus":{
+                      "description":"OnFocus",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 textFieldContainer = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["3a7d55bf9af849cba86e47f9fb38818d"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}}]}]},
+                    "onLostFocus":{
+                      "description":"OnLostFocus",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 textFieldContainer = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["3a7d55bf9af849cba86e47f9fb38818d"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "placeholderText":"请输入文字"},
+{
+                  "id":"6a07a5ea6dab4073a45730f45d7f4776",
+                  "label":"搜索悬停",
+                  "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":283,
+                      "y":10},
+                    "size":{
+                      "width":13,
+                      "height":13}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"a4f9455247bc4f1bab4fe97906e4ff63",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":283,
+                          "y":10},
+                        "size":{
+                          "width":13,
+                          "height":13}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/搜索悬停_u285.png"}},
+{
+                  "id":"86c11d5242d34805875a8139fdc8e5f7",
+                  "label":"选型2",
+                  "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":72},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"bd4eef7659994f87958496178ab2d5ff",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"6747b65178f74519ad71da262e45693d",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":72},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["6747b65178f74519ad71da262e45693d"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[&nbsp; This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["ee388dc0b18d47f8b9182c215891e761"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[  This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["ddb08ac12d0c413eadfabcaa70e3d55e"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["0501ebc6af174c0aa406160216619fe4"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["66d00369e3414c2b965eda3cd8753d76"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["cfde11428ec04df09bcf6056736ee56d"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["53175eaded7e446aa343fbcee9f1a536"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型2 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["86c11d5242d34805875a8139fdc8e5f7"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型3 = &quot;false&quot;, 且<br> 选中状态值 选项1 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["663556d941d14bf4865349dfc40b9309"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]},
+{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["b86d4f82e6314343b16801106b067027"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"cfde11428ec04df09bcf6056736ee56d",
+          "label":"下拉选中",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":592,
+              "y":203},
+            "size":{
+              "width":8,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"27635eebd4d543fa8d9de2817eed87e6",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"66d00369e3414c2b965eda3cd8753d76",
+                  "label":"下拉选中",
+                  "parentDynamicPanel":"cfde11428ec04df09bcf6056736ee56d",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":9,
+                      "height":9}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"62af490ce7c94355a1337592ec47bc44",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"cfde11428ec04df09bcf6056736ee56d",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":9,
+                          "height":9}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/下拉选中_u100.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"0501ebc6af174c0aa406160216619fe4",
+          "label":"下拉默认",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":592,
+              "y":203},
+            "size":{
+              "width":8,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"fd07f0c72b07468993503a66cc8caf59",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"53175eaded7e446aa343fbcee9f1a536",
+                  "label":"",
+                  "parentDynamicPanel":"0501ebc6af174c0aa406160216619fe4",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":9,
+                      "height":9}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"732290f5bd674a11b2ab483dce2ede0d",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"0501ebc6af174c0aa406160216619fe4",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":9,
+                          "height":9}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/u103.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"545062ac446c49ccb18bb99a5c1a7173",
+          "label":"文本框",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Microsoft YaHei'",
+            "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+            "stateStyles":{
+              "mouseDown":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "selected":{
+                "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+              "disabled":{
+                "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+            "location":{
+              "x":357,
+              "y":137},
+            "size":{
+              "width":252,
+              "height":28}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"58ac07d17796423fa6f4e6ff46daf0e3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Microsoft YaHei'",
+                "baseStyle":"0d83a3d54a9842e883274999a1b0dfe7",
+                "stateStyles":{
+                  "mouseDown":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "selected":{
+                    "baseStyle":"83ae1b6f75eb418f9df736364f669f5f"},
+                  "disabled":{
+                    "baseStyle":"2360167ed08d43e2a5c089bd7e3be9a9"}},
+                "location":{
+                  "x":357,
+                  "y":137},
+                "size":{
+                  "width":252,
+                  "height":28}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 options",
+                      "objectsToFades":[{
+                          "objectPath":["e020887e605441b19d91c8c49e329659"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 当前部件 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>隐藏 下拉默认",
+                      "objectsToFades":[{
+                          "objectPath":["0ca74e8b07c04fc69d238d5fd60f0db2"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["642b00a68d2f40ddad095bb00eb82483"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["545062ac446c49ccb18bb99a5c1a7173"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>下拉选中,<br>隐藏 下拉默认,<br>(Image)",
+                      "objectsToFades":[{
+                          "objectPath":["242501bd20a74b1fac7b676e3cfc1322"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["642b00a68d2f40ddad095bb00eb82483"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0ca74e8b07c04fc69d238d5fd60f0db2"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["4d79db1b24bf45038b3b40da6d830249"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1<br> (If 可见性 options = 假)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetVisibility",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["e020887e605441b19d91c8c49e329659"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":false}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["545062ac446c49ccb18bb99a5c1a7173"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["642b00a68d2f40ddad095bb00eb82483"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0ca74e8b07c04fc69d238d5fd60f0db2"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["242501bd20a74b1fac7b676e3cfc1322"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["4d79db1b24bf45038b3b40da6d830249"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 变量 abc = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"abc"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"Case 2<br> (Else If 可见性 options = 真)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetVisibility",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["e020887e605441b19d91c8c49e329659"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":true}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["545062ac446c49ccb18bb99a5c1a7173"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/任务管理/文本框_u295.png",
+            "selected~":"images/任务管理/文本框_u295_selected.png",
+            "mouseDown~":"images/任务管理/文本框_u295_selected.png",
+            "disabled~":"images/任务管理/文本框_u295_disabled.png"}},
+{
+          "id":"242501bd20a74b1fac7b676e3cfc1322",
+          "label":"下拉选中",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":593,
+              "y":147},
+            "size":{
+              "width":8,
+              "height":9}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"6f19192a16864fc2aa772995e7402f23",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"642b00a68d2f40ddad095bb00eb82483",
+                  "label":"下拉选中",
+                  "parentDynamicPanel":"242501bd20a74b1fac7b676e3cfc1322",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":9,
+                      "height":9}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"79ceec8d44db47f794f4c450b1272538",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"242501bd20a74b1fac7b676e3cfc1322",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":9,
+                          "height":9}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/下拉选中_u100.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"0ca74e8b07c04fc69d238d5fd60f0db2",
+          "label":"下拉默认",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":593,
+              "y":147},
+            "size":{
+              "width":8,
+              "height":9}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"9b3d465565654b89a6cd4ef612cf4a4c",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"4d79db1b24bf45038b3b40da6d830249",
+                  "label":"",
+                  "parentDynamicPanel":"0ca74e8b07c04fc69d238d5fd60f0db2",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":9,
+                      "height":9}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"a761ef2fd731402290ec138d73cc38eb",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"0ca74e8b07c04fc69d238d5fd60f0db2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":9,
+                          "height":9}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/u103.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"e020887e605441b19d91c8c49e329659",
+          "label":"options",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":357,
+              "y":164},
+            "size":{
+              "width":252,
+              "height":106},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onMouseOver":{
+              "description":"OnMouseOver",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 选中状态值 文本框 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["545062ac446c49ccb18bb99a5c1a7173"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉选中,<br>下拉选中,<br>隐藏 下拉默认,<br>(Image)",
+                      "objectsToFades":[{
+                          "objectPath":["242501bd20a74b1fac7b676e3cfc1322"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["642b00a68d2f40ddad095bb00eb82483"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0ca74e8b07c04fc69d238d5fd60f0db2"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["4d79db1b24bf45038b3b40da6d830249"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onMouseOut":{
+              "description":"OnMouseOut",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["0ca74e8b07c04fc69d238d5fd60f0db2"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["242501bd20a74b1fac7b676e3cfc1322"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["642b00a68d2f40ddad095bb00eb82483"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["4d79db1b24bf45038b3b40da6d830249"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onPanelStateChange":{
+              "description":"OnPanelStateChange",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                      "objectsToFades":[{
+                          "objectPath":["0ca74e8b07c04fc69d238d5fd60f0db2"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["642b00a68d2f40ddad095bb00eb82483"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["242501bd20a74b1fac7b676e3cfc1322"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["4d79db1b24bf45038b3b40da6d830249"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"7cfe7b643ab34485b19ac89e4ced4362",
+              "label":"show dropdown options",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"35134add8ef74f96b9646a1a4f45cad9",
+                  "label":"dropDownBox",
+                  "parentDynamicPanel":"e020887e605441b19d91c8c49e329659",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Open Sans Regular', 'Open Sans'",
+                    "fontSize":"12px",
+                    "horizontalAlignment":"left",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF606060,
+                      "opacity":1},
+                    "stateStyles":{
+                      "selected":{
+}},
+                    "location":{
+                      "x":0,
+                      "y":-19},
+                    "size":{
+                      "width":310,
+                      "height":133},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF2C4A93},
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":3,
+                      "offsetY":3,
+                      "blurRadius":7,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.0588235294117647}}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"a2c996669ae64375a40e2ca8f7a30bcc",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e020887e605441b19d91c8c49e329659",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Open Sans Regular', 'Open Sans'",
+                        "fontSize":"12px",
+                        "horizontalAlignment":"left",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFF606060,
+                          "opacity":1},
+                        "stateStyles":{
+                          "selected":{
+}},
+                        "location":{
+                          "x":0,
+                          "y":-19},
+                        "size":{
+                          "width":310,
+                          "height":133},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93},
+                        "outerShadow":{
+                          "on":true,
+                          "offsetX":3,
+                          "offsetY":3,
+                          "blurRadius":7,
+                          "color":{
+                            "r":0,
+                            "g":0,
+                            "b":0,
+                            "a":0.0588235294117647}}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/任务管理/dropdownbox_u106.png"}},
+{
+                  "id":"da890788f9014f8fb3b83ef1fe3f78eb",
+                  "label":"选项1",
+                  "parentDynamicPanel":"e020887e605441b19d91c8c49e329659",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":4},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"9e828b322749413a9d97bad68471f81f",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e020887e605441b19d91c8c49e329659",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":4},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["e020887e605441b19d91c8c49e329659"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[ This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["58ac07d17796423fa6f4e6ff46daf0e3"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[ This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["545062ac446c49ccb18bb99a5c1a7173"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["0ca74e8b07c04fc69d238d5fd60f0db2"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["642b00a68d2f40ddad095bb00eb82483"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["242501bd20a74b1fac7b676e3cfc1322"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["4d79db1b24bf45038b3b40da6d830249"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选项1 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["da890788f9014f8fb3b83ef1fe3f78eb"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 不明 = &quot;false&quot;, 且<br> 选中状态值 选型2 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["a1f24c697d9e4179b979897349f8a2b8"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}},
+{
+                  "id":"a1f24c697d9e4179b979897349f8a2b8",
+                  "label":"选型2",
+                  "parentDynamicPanel":"e020887e605441b19d91c8c49e329659",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                    "stateStyles":{
+                      "mouseOver":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}},
+                      "selected":{
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFF2C4A93}}},
+                    "location":{
+                      "x":3,
+                      "y":41},
+                    "size":{
+                      "width":303,
+                      "height":34},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"b317de516e1e4b719232f2e5fb51d24e",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e020887e605441b19d91c8c49e329659",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "baseStyle":"1c444d9ef34043208946463e880d4c6f",
+                        "stateStyles":{
+                          "mouseOver":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}},
+                          "selected":{
+                            "foreGroundFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFFFF,
+                              "opacity":1},
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFF2C4A93}}},
+                        "location":{
+                          "x":3,
+                          "y":41},
+                        "size":{
+                          "width":303,
+                          "height":34},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 options",
+                              "objectsToFades":[{
+                                  "objectPath":["e020887e605441b19d91c8c49e329659"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"显示/隐藏部件",
+                              "objectsToFades":[]},
+{
+                              "action":"setFunction",
+                              "description":"设置 部件文字 文本框 = &quot;[[&nbsp; This.text]]&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetRichText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["58ac07d17796423fa6f4e6ff46daf0e3"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"[[  This.text]]",
+                                        "localVariables":{
+},
+                                        "stos":[{
+                                            "computedType":"string",
+                                            "sto":"propCall",
+                                            "thisSTO":{
+                                              "desiredType":"widget",
+                                              "sto":"var",
+                                              "name":"this"},
+                                            "prop":"text"}]},
+{
+                                        "exprType":"booleanLiteral",
+                                        "value":true}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 文本框 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["545062ac446c49ccb18bb99a5c1a7173"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 下拉默认,<br>(Image),<br>隐藏 下拉选中,<br>下拉选中",
+                              "objectsToFades":[{
+                                  "objectPath":["0ca74e8b07c04fc69d238d5fd60f0db2"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["642b00a68d2f40ddad095bb00eb82483"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["242501bd20a74b1fac7b676e3cfc1322"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}},
+{
+                                  "objectPath":["4d79db1b24bf45038b3b40da6d830249"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 选型2 = &quot;true&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["a1f24c697d9e4179b979897349f8a2b8"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"true",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setFunction",
+                              "description":"设置 选中状态值 不明 = &quot;false&quot;, 且<br> 选中状态值 选项1 = &quot;false&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetCheckState",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["da890788f9014f8fb3b83ef1fe3f78eb"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"false",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/任务管理/选项1_u108.png",
+                    "selected~":"images/任务管理/选项1_u108_selected.png",
+                    "mouseOver~":"images/任务管理/选项1_u108_selected.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e440fc053b7a4a8fa567c016953ae611":{
+      "scriptId":"u0"},
+    "b3ae6e818ca143019da9adb1ee135778":{
+      "scriptId":"u1"},
+    "a2a5efe5f7384462b2fb7d87cecca1ca":{
+      "scriptId":"u2"},
+    "bd110e33f1d54fb0953cbb56f389b869":{
+      "scriptId":"u3"},
+    "839caa0665bb48d095105c33bc4d6cc2":{
+      "scriptId":"u4"},
+    "df8ccde737c44d4eb65f07833e4cd9be":{
+      "scriptId":"u5"},
+    "76e5a6c2a5f14bbcadad2a715e331444":{
+      "scriptId":"u6"},
+    "a59e4ee765e44ae1bd6a3d04386fb368":{
+      "scriptId":"u7"},
+    "09e5aa5deb33438495e0849558443fd0":{
+      "scriptId":"u8"},
+    "628b5e17b3fa4026b366aa044ec7365d":{
+      "scriptId":"u9"},
+    "0d2d0ae024a7477b86f3f320bbd7f74d":{
+      "scriptId":"u10"},
+    "4da7ba07c5c4490a84dda352e7a75eae":{
+      "scriptId":"u11"},
+    "6ddb16f7cbed4cd4a195908e47a51276":{
+      "scriptId":"u12"},
+    "71850656f4d94e978aeb559aa713df87":{
+      "scriptId":"u13"},
+    "3c9668188bd5481ab73213d9a3976eeb":{
+      "scriptId":"u14"},
+    "9d98e642e09f4ea3ae1fc86e5115a8f3":{
+      "scriptId":"u15"},
+    "b8dc22a308e1480683c5b57d5cd17564":{
+      "scriptId":"u16"},
+    "512ea153f0aa4f74a425f7acdc9849f6":{
+      "scriptId":"u17"},
+    "ba67797e58874fc9a7f0af9b595b3648":{
+      "scriptId":"u18"},
+    "2456c33871874928acfd1d4e085f2905":{
+      "scriptId":"u19"},
+    "9981fb9b8a154001bfceccef66a292f1":{
+      "scriptId":"u20"},
+    "6e8d8f0aa16942929585c0f7227ee67b":{
+      "scriptId":"u21"},
+    "b8bad83653b0408bb9bf172f0d32d9f6":{
+      "scriptId":"u22"},
+    "e10ea588d89542ed89e99ef6ccd3292e":{
+      "scriptId":"u23"},
+    "99a65d667a0a4800bcaa238e9c78903b":{
+      "scriptId":"u24"},
+    "efaa514aa9a34f95bc9de7087832e7c3":{
+      "scriptId":"u25"},
+    "bf48ed80b91d4e12b9a051b7506d8ea1":{
+      "scriptId":"u26"},
+    "5bd5f71a94cc4544b4bce9817d4d53e9":{
+      "scriptId":"u27"},
+    "2d9bc1ebaf854141bf0fb31ae979c43a":{
+      "scriptId":"u28"},
+    "63a697b44de44728913efe7e9df1e046":{
+      "scriptId":"u29"},
+    "147fe53fd0ee4f488c50905eb98c664b":{
+      "scriptId":"u30"},
+    "d78193f28fa94435a637ebdba6ac0970":{
+      "scriptId":"u31"},
+    "7dbdb72e880f4f86a5e852eb5c123362":{
+      "scriptId":"u32"},
+    "3be119ce12a44dd3bac293fcdafa19d0":{
+      "scriptId":"u33"},
+    "47e7d6da6862489d8ce49e3047af73e8":{
+      "scriptId":"u34"},
+    "88f1922e63304085ac57224f3b129e7c":{
+      "scriptId":"u35"},
+    "5f8f71422adc4450b29760b3b52212d0":{
+      "scriptId":"u36"},
+    "3b967257068f47ff8376c4a0e0f4ec3d":{
+      "scriptId":"u37"},
+    "ad12378f00984b8985a7f7220873a2ff":{
+      "scriptId":"u38"},
+    "2e0205a87c044cb19ddd0a4e2110e00d":{
+      "scriptId":"u39"},
+    "42fcb0193113428e8d9d10f5a9e28893":{
+      "scriptId":"u40"},
+    "4d03ab16f1654e3e88a7299f5107dde3":{
+      "scriptId":"u41"},
+    "a24d36bc6c4645a499d37746a533b225":{
+      "scriptId":"u42"},
+    "3daf04b7a19c47e4ac9d8d37642e78cb":{
+      "scriptId":"u43"},
+    "b8eb89a94f6847ea8b03efce60e059f5":{
+      "scriptId":"u44"},
+    "a46f82d68c3b4e119bcce0e2b92d7f45":{
+      "scriptId":"u45"},
+    "2bfa9b23c1574abba3191480fa05a3ad":{
+      "scriptId":"u46"},
+    "321b6e91ff4f4bd0b18a91e5cd723929":{
+      "scriptId":"u47"},
+    "7201c576d56440ac8be08fe3af57e5fe":{
+      "scriptId":"u48"},
+    "102887350e824fb98830c61079571bc2":{
+      "scriptId":"u49"},
+    "3de1b7075de74ebb933dc85da892271a":{
+      "scriptId":"u50"},
+    "41a2c9fee98d4eddbeaedef5686211e3":{
+      "scriptId":"u51"},
+    "c41390ccb3f54983a77747629fb9b6cf":{
+      "scriptId":"u52"},
+    "36c14c86108d47a8b2e4b1339189fe03":{
+      "scriptId":"u53"},
+    "8028c8c6fe504fccbad6e711c4355243":{
+      "scriptId":"u54"},
+    "e159f33e5a6b49068b9776e6b0d30f0e":{
+      "scriptId":"u55"},
+    "7ad76d8405234fcb842dd32cd12f7bd2":{
+      "scriptId":"u56"},
+    "0ceb8f0c9b424bbf95dfa9826d8f3021":{
+      "scriptId":"u57"},
+    "bdb7e592492f4a4388e8998f66768dff":{
+      "scriptId":"u58"},
+    "4fdfbaff33634098b14f8da43a5f6e2c":{
+      "scriptId":"u59"},
+    "d65d9ba0b6614c7081d4f8773512d9f6":{
+      "scriptId":"u60"},
+    "fb188b4a6bf84f7ba948a8fa02ef02fe":{
+      "scriptId":"u61"},
+    "76e521bcf17e4ba3a33577ab9afa58eb":{
+      "scriptId":"u62"},
+    "f4ce436a08e344b1b98a79f5cc7e5b29":{
+      "scriptId":"u63"},
+    "87861fe3fe2b4039817149123d6cd020":{
+      "scriptId":"u64"},
+    "ed4bee0358314d52b170d6557e390f48":{
+      "scriptId":"u65"},
+    "7549c5ff0fd7412183a5fbffc216f794":{
+      "scriptId":"u66"},
+    "5b0ce7101a824cb69e42d97a6ed63bad":{
+      "scriptId":"u67"},
+    "1e9fb192d257449486eec920f8d10838":{
+      "scriptId":"u68"},
+    "4ee1638329684f0090e565f8a285cd40":{
+      "scriptId":"u69"},
+    "89c9ed2f2d124a7da37c4a23f1a5905a":{
+      "scriptId":"u70"},
+    "709073498a9440abb9b976293e50ac75":{
+      "scriptId":"u71"},
+    "cbef239ffd5e44d089713f6af542e624":{
+      "scriptId":"u72"},
+    "9bd9a80ae4de4a84acdb5828a91b9b79":{
+      "scriptId":"u73"},
+    "90662ff2c7184163b670769ea7f8625e":{
+      "scriptId":"u74"},
+    "7079f78142534974970b00a0f7c18435":{
+      "scriptId":"u75"},
+    "2ae2284364ff4c57a8a0a417f86e0ff8":{
+      "scriptId":"u76"},
+    "c4ea6875b5c149448579557da8606874":{
+      "scriptId":"u77"},
+    "b791465bbbbd473eb0ea2e7ca5ed0551":{
+      "scriptId":"u78"},
+    "ed38a2f7445240a0b40a62cab554993c":{
+      "scriptId":"u79"},
+    "274153dc83d848d5bc7cb002f496fb90":{
+      "scriptId":"u80"},
+    "78cdc5b6e86e4c9495302c33b2f6c46c":{
+      "scriptId":"u81"},
+    "738b781e06994f788ece2a2d08e3c120":{
+      "scriptId":"u82"},
+    "d1fc3e919f8a443cac4d2ff036175345":{
+      "scriptId":"u83"},
+    "4bf39d5b6b954c25b6736b1c4d42f4d8":{
+      "scriptId":"u84"},
+    "0453c8b5d8514bbb94b2c27294d241b5":{
+      "scriptId":"u85"},
+    "2af74365a91e40a5bd85dd40d76e2cf9":{
+      "scriptId":"u86"},
+    "519cbac259554e1dba1a2f4d212f0614":{
+      "scriptId":"u87"},
+    "a88bd623d658401c900e4660649c0c99":{
+      "scriptId":"u88"},
+    "7bb816e7e8ed420bb6738c1c148456d8":{
+      "scriptId":"u89"},
+    "fec487c6d10f4742af2f4e0bad80a9f4":{
+      "scriptId":"u90"},
+    "1d49a67f94224fa19ac551badf891170":{
+      "scriptId":"u91"},
+    "d178451e4153498db59a9f74bed15d48":{
+      "scriptId":"u92"},
+    "f0afb873496940f5b47924e7f2927691":{
+      "scriptId":"u93"},
+    "6f1a6b3c79dd43bb8a1a44e6d8140c3e":{
+      "scriptId":"u94"},
+    "7a060e541e5e4e60be9c15fb589e50ab":{
+      "scriptId":"u95"},
+    "a6f7fd035c44401ab7e5c960e4249f9b":{
+      "scriptId":"u96"},
+    "c6ced1e5e90b404a81579818123ed877":{
+      "scriptId":"u97"},
+    "ad3d5aeea68b4c91b7448232ebbf956a":{
+      "scriptId":"u98"},
+    "ce8f707fee0344fdbaad7d756c749704":{
+      "scriptId":"u99"},
+    "cc3d2a854fd24d8ba004f8566acf0a24":{
+      "scriptId":"u100"},
+    "b04be088e4614c5b96fdcbaa6933f93a":{
+      "scriptId":"u101"},
+    "6d0f57aaa238468687b4d6fdf43130d7":{
+      "scriptId":"u102"},
+    "7a1b7552c0ad47e795d536a4450b4c1e":{
+      "scriptId":"u103"},
+    "4770c0a1d8b24877a3df5a22ffe922b4":{
+      "scriptId":"u104"},
+    "8f432cdbb7fe41639d10b486d1e06cf9":{
+      "scriptId":"u105"},
+    "7f318fc65b764c7aaa60bca058c075a5":{
+      "scriptId":"u106"},
+    "1c3d41308f3848b0a6494baf38003607":{
+      "scriptId":"u107"},
+    "d2abce2165a84e4ca1f935a2c7ac8c48":{
+      "scriptId":"u108"},
+    "9820433a3fcc4bc792ee1b9c39951c82":{
+      "scriptId":"u109"},
+    "4cf22c0ce28c4f498745a60dfd468785":{
+      "scriptId":"u110"},
+    "9ec91def0f7147f58b0f564e916f2753":{
+      "scriptId":"u111"},
+    "fb09dcce99554364bfbf5ef5da0d71f7":{
+      "scriptId":"u112"},
+    "3cc35370cdf945679618545b57ca63a5":{
+      "scriptId":"u113"},
+    "34d026e607df40f48e4573947424d557":{
+      "scriptId":"u114"},
+    "660064dacecf4d3eb6a676db02df9813":{
+      "scriptId":"u115"},
+    "cffea9d06a074c7bb382607dc16093fd":{
+      "scriptId":"u116"},
+    "5030ffdb5a1d4c37bd46aeee2152b0fd":{
+      "scriptId":"u117"},
+    "fd3874fb68244df990cfcdbca65155bf":{
+      "scriptId":"u118"},
+    "42d924ca360a449da637d4da5722d984":{
+      "scriptId":"u119"},
+    "6a9696e15ba944bdbd2ccefa02fbf765":{
+      "scriptId":"u120"},
+    "d8556686b553461695beb0e5b2ee8b10":{
+      "scriptId":"u121"},
+    "7bc5be2b597c472fa9460d5b18d164ff":{
+      "scriptId":"u122"},
+    "bd957648f1f44305bb1dd0b3f0587294":{
+      "scriptId":"u123"},
+    "1735573459ea4f20be9efd3886b28eaa":{
+      "scriptId":"u124"},
+    "84df1b89f9c14cf5b46b7ed8f56e73d6":{
+      "scriptId":"u125"},
+    "a01ee7426dc049d7969cee658ba241dc":{
+      "scriptId":"u126"},
+    "5a30ee8833c04ade92410786ab0d43b7":{
+      "scriptId":"u127"},
+    "363947ea0da346b3a25d469620a75b75":{
+      "scriptId":"u128"},
+    "6fa62d74fc4b402790ffa99d196f2946":{
+      "scriptId":"u129"},
+    "bee603731451433192eb9a31bdfd6279":{
+      "scriptId":"u130"},
+    "1389ec4ec0f943d785212029e4fd23d3":{
+      "scriptId":"u131"},
+    "7199d2e4dc39449f9eb993316b67a5ba":{
+      "scriptId":"u132"},
+    "bf77bd09fe0b4daca1f2bb3abd7ec894":{
+      "scriptId":"u133"},
+    "8ccd120d10f64def87bbccfb656f608c":{
+      "scriptId":"u134"},
+    "6c72438cf2964588b7bfd1d000e29323":{
+      "scriptId":"u135"},
+    "7d9462cd54794951a4204078da3c3d24":{
+      "scriptId":"u136"},
+    "dfbc8d8f6d074273acc8e06d89395d4f":{
+      "scriptId":"u137"},
+    "fc93df3308bd4b0bbb5391b1b3377230":{
+      "scriptId":"u138"},
+    "92f02160e12b408696ba4ec70f201386":{
+      "scriptId":"u139"},
+    "ba3e7523fc5048df8335df5d5e792a15":{
+      "scriptId":"u140"},
+    "3910cfe4931445a7a49f85c30c4fce0d":{
+      "scriptId":"u141"},
+    "0603e2f05fb94c7892a319488fce407b":{
+      "scriptId":"u142"},
+    "580a0213556f42a498074d13078552ab":{
+      "scriptId":"u143"},
+    "36f25efd7660400d9d40b378bf178e69":{
+      "scriptId":"u144"},
+    "2142b93e0524435b8ada02809d2f8f22":{
+      "scriptId":"u145"},
+    "60609e48a2864d608a805db19f1459ca":{
+      "scriptId":"u146"},
+    "c65f7f1cf81646e6bbcbd4d3c8cd31f4":{
+      "scriptId":"u147"},
+    "5d914487007a40e59506bd71bba26cf8":{
+      "scriptId":"u148"},
+    "f76c43f223824d3da597e51a2465636d":{
+      "scriptId":"u149"},
+    "c7cfc3754b314f6489d9d999cbba8bf3":{
+      "scriptId":"u150"},
+    "23edd008ab24457b8b633574c50fc881":{
+      "scriptId":"u151"},
+    "beef32870f1f411a88cf3d9080715f4a":{
+      "scriptId":"u152"},
+    "fcc837fc3d804178801e0ebd000dee87":{
+      "scriptId":"u153"},
+    "2531b9df84714176a0e2f10e38a41dd9":{
+      "scriptId":"u154"},
+    "6fbc07c1ca9446f3bb15d3ab42f0256c":{
+      "scriptId":"u155"},
+    "2d0167ec499f4acd826e39e41d6405c4":{
+      "scriptId":"u156"},
+    "8051b19969d44d06a03e2158ee2c5b2e":{
+      "scriptId":"u157"},
+    "f7804d890ad9464db0f9d65b6b2267ce":{
+      "scriptId":"u158"},
+    "3d0cde80eaa24aabbadcf8a55b192fac":{
+      "scriptId":"u159"},
+    "3cb438b49ad74730a2363e1653926e08":{
+      "scriptId":"u160"},
+    "d158eb171b2b4643a113778a862877fb":{
+      "scriptId":"u161"},
+    "7cf54a5cb4b04ff2b20668a0e39acb75":{
+      "scriptId":"u162"},
+    "49dd4b88af124ed5a66655aa6a74b3ec":{
+      "scriptId":"u163"},
+    "54f21e6ebc9e4456bf8de3cbc8536744":{
+      "scriptId":"u164"},
+    "e68fbbb68cf743b585a9d173fa2cd1f2":{
+      "scriptId":"u165"},
+    "81febbe597f3422ebd9c67f2c8cf5cca":{
+      "scriptId":"u166"},
+    "c5bcf998b79040c89acb1f99cddd3715":{
+      "scriptId":"u167"},
+    "08d471af7f8a4f7ca75776d497b682fd":{
+      "scriptId":"u168"},
+    "827a91e6ce5d47de986e7711d3bfce5b":{
+      "scriptId":"u169"},
+    "1278a45451e942e6b0da6a9c57a8704e":{
+      "scriptId":"u170"},
+    "5a5dc7f9fd874031a09640114541f111":{
+      "scriptId":"u171"},
+    "06a119a08a634dfc90e9b89fc02137d7":{
+      "scriptId":"u172"},
+    "f077e869a96f4b20b2d5ce3e751b8efb":{
+      "scriptId":"u173"},
+    "819ed18bb3d1441aad3e67da0ed0def7":{
+      "scriptId":"u174"},
+    "1d3993fb5eaa4d898a8cd80fac784911":{
+      "scriptId":"u175"},
+    "4317cc62f6d64199a332a963aa0129d0":{
+      "scriptId":"u176"},
+    "94e8d9f88a5049b780f52dc5adf8dfd4":{
+      "scriptId":"u177"},
+    "010e71fa95274a55b5c1742290e2c493":{
+      "scriptId":"u178"},
+    "cc405b487ec547dfad04c89ba9d2c5f7":{
+      "scriptId":"u179"},
+    "88279536bdce4aebb3e03426f9e0b670":{
+      "scriptId":"u180"},
+    "e7964ccab6b541379411d8443a0aabb6":{
+      "scriptId":"u181"},
+    "7f8963f706514a59b7646ff5cccad49d":{
+      "scriptId":"u182"},
+    "4e0a4c8e38bf42d09f3f21c0aa0e4461":{
+      "scriptId":"u183"},
+    "804cfca1d00e49a2a831d5ec3aebf3e8":{
+      "scriptId":"u184"},
+    "7cf05bf59c024d7aa6c45d9359f03ada":{
+      "scriptId":"u185"},
+    "49a2a7fe54b843709c4f87e939ccc0c8":{
+      "scriptId":"u186"},
+    "3d19010a7da74f0eb85b8b1a82bc7d1d":{
+      "scriptId":"u187"},
+    "a8fc824ff0d942ac95c560c27384a0eb":{
+      "scriptId":"u188"},
+    "663613ad2cfe45d086604dc48865ed46":{
+      "scriptId":"u189"},
+    "49635cd209614a0295dc445ea1c7ad40":{
+      "scriptId":"u190"},
+    "ba60e446c56a4fb8a7a5660d4c083ed3":{
+      "scriptId":"u191"},
+    "46d9cf50eabe428082179f8d724d91af":{
+      "scriptId":"u192"},
+    "09916c6c04ad4e3b8326cea9cee3a568":{
+      "scriptId":"u193"},
+    "4590ca90db354e2da636eb5f775ef116":{
+      "scriptId":"u194"},
+    "204614045cef449cb802ceddeffed88d":{
+      "scriptId":"u195"},
+    "a9b85a3c7c094c6d9dca31e8f252b8ce":{
+      "scriptId":"u196"},
+    "5b7a5cb119d547279e99ec3b15fcb2ad":{
+      "scriptId":"u197"},
+    "f9525ace423e420894245f1ba67760d8":{
+      "scriptId":"u198"},
+    "dff02fb7592d456bbe0e6a03e6c9fb98":{
+      "scriptId":"u199"},
+    "e47938100acd46ea899b52e27c654435":{
+      "scriptId":"u200"},
+    "b8b44f5e9e964ff1a3d471e9a4ec927c":{
+      "scriptId":"u201"},
+    "97bf59a25c504c43b72ceb25738c0ad7":{
+      "scriptId":"u202"},
+    "b70105a710c04fe38802f09ae6e2738d":{
+      "scriptId":"u203"},
+    "b1f6e9aa31394a198da14f8f721de5f0":{
+      "scriptId":"u204"},
+    "aa931a22f2114d37a624c19278b3dc12":{
+      "scriptId":"u205"},
+    "344c77bdfa55404e81e13f9d45eefbd3":{
+      "scriptId":"u206"},
+    "c9dc32e4f48d4a588ebd0ec5a89ce24e":{
+      "scriptId":"u207"},
+    "8abeb76f5a6a4570aa3f8e605c7be3fe":{
+      "scriptId":"u208"},
+    "d6c8e3fd5f5447a69283935aa277a2ca":{
+      "scriptId":"u209"},
+    "c4bdde2eddd04963bbd2f82caf44b030":{
+      "scriptId":"u210"},
+    "3be026f20cbb49469464ec031c2cf888":{
+      "scriptId":"u211"},
+    "d55ee09ad1774e5b9619e02428881975":{
+      "scriptId":"u212"},
+    "e5d893922da942d295f9ff11e401f7ce":{
+      "scriptId":"u213"},
+    "727325232a774c6790ae65ff55cee650":{
+      "scriptId":"u214"},
+    "52932d20b5b943b9a7dbb528cba4f09c":{
+      "scriptId":"u215"},
+    "a3ca625de01f483b9bf3016547cc42ae":{
+      "scriptId":"u216"},
+    "e227dcf3e9f043f296c58855569972c1":{
+      "scriptId":"u217"},
+    "d2fe770734434ed2bbac98bc52e46c64":{
+      "scriptId":"u218"},
+    "11242851ed9749708af76051aa239f59":{
+      "scriptId":"u219"},
+    "7ebf0a4d1b8e4609ac219b620663744e":{
+      "scriptId":"u220"},
+    "6dbfbc12157a4adcb32ee6d9afaf6fce":{
+      "scriptId":"u221"},
+    "058ffaef936046aa8e41686f800a1d65":{
+      "scriptId":"u222"},
+    "f1d3b974f64847c2984a7d0982a6d5b2":{
+      "scriptId":"u223"},
+    "7dbae578c6924713a2d73ae9dafd78c5":{
+      "scriptId":"u224"},
+    "1723db9049ec4bb384b7dde1d2af648e":{
+      "scriptId":"u225"},
+    "1c8729ad35f54b908db256fcd88e156b":{
+      "scriptId":"u226"},
+    "a10f4c636a734b60992abbe822d8dfc9":{
+      "scriptId":"u227"},
+    "4411dfb1329f4af09bf2dccf780efd76":{
+      "scriptId":"u228"},
+    "86327d5b72d24e5c8f4b24fe494743a0":{
+      "scriptId":"u229"},
+    "e749edc28805484ea2209722af70f502":{
+      "scriptId":"u230"},
+    "e4827988f16c428692fced95f2d4405f":{
+      "scriptId":"u231"},
+    "4e93677243bd46609efb5bf5ef664cb4":{
+      "scriptId":"u232"},
+    "f5015c9d28aa44fd87dfabfa995b3012":{
+      "scriptId":"u233"},
+    "28ffeb39406740c28b2e32a78d6ea67a":{
+      "scriptId":"u234"},
+    "eaa764ba5e3148d59770b8513e9f69cd":{
+      "scriptId":"u235"},
+    "72e15c64d89b449db5ce560143f30918":{
+      "scriptId":"u236"},
+    "ee4c5e2332c44c71b7d7d17aea9dfd86":{
+      "scriptId":"u237"},
+    "1373c42d04df435aa2226eef85fdf430":{
+      "scriptId":"u238"},
+    "8b0e54fa60184057b29d4305b3077fa2":{
+      "scriptId":"u239"},
+    "c58c17a4624f45869e31c55ce7dd3ccc":{
+      "scriptId":"u240"},
+    "5afb1616123c45c6b22e56ee34a470fa":{
+      "scriptId":"u241"},
+    "e74d78fd22944e72a9eb298ee6db8177":{
+      "scriptId":"u242"},
+    "e47ec447b90244feac4eb9fb812ad78f":{
+      "scriptId":"u243"},
+    "1ec0236d984747a48d0c2c5bc8558761":{
+      "scriptId":"u244"},
+    "c641ed7848d54629a73ab8e0fba2615a":{
+      "scriptId":"u245"},
+    "983a86830f30452e9f736d516126fe9b":{
+      "scriptId":"u246"},
+    "4cf91b8a45a04afca2c60971868715b9":{
+      "scriptId":"u247"},
+    "2cdf8c8cef3f48b8b18584a5215d3bfb":{
+      "scriptId":"u248"},
+    "db680fc27ce24e12bf9f267a9d9075ad":{
+      "scriptId":"u249"},
+    "54e3be2cb99642ddabe762827040c914":{
+      "scriptId":"u250"},
+    "420bed64f0864bbbb34cd79e7222b45b":{
+      "scriptId":"u251"},
+    "8e976b3f1b5642feb1bb24c85e007205":{
+      "scriptId":"u252"},
+    "5d643ca27fd14e0290e404940b18da41":{
+      "scriptId":"u253"},
+    "b72ff8e9902f4eba9ecf5d1b289bcfd0":{
+      "scriptId":"u254"},
+    "f51c70c882f6477a96d7325596a0cc86":{
+      "scriptId":"u255"},
+    "cb1b8f45d47c40e08b4260b3ef0b3b5d":{
+      "scriptId":"u256"},
+    "32d7e74e3de6425097261dc475cde874":{
+      "scriptId":"u257"},
+    "6a48f54771324ba9bbf53dfe0a62f25a":{
+      "scriptId":"u258"},
+    "6eb656614fde45e7bdf064dc74ed52d9":{
+      "scriptId":"u259"},
+    "58f92d88a74b43108c673954f7abb857":{
+      "scriptId":"u260"},
+    "94d8eec5f2934e2f87a3b96b4feeeaa9":{
+      "scriptId":"u261"},
+    "29bf16aa41304a5ea681c91db669ddb2":{
+      "scriptId":"u262"},
+    "f8cfdd3c77d14cceb488530633a1fd45":{
+      "scriptId":"u263"},
+    "633eefe58b104f6a94039892e3f8747c":{
+      "scriptId":"u264"},
+    "e3a78ab751f64407b6aeccab115337f0":{
+      "scriptId":"u265"},
+    "b08985c6b93a4dc18b06caf185106dfc":{
+      "scriptId":"u266"},
+    "7d8f844148a94f80ac3f18bacf71c0fd":{
+      "scriptId":"u267"},
+    "0e196eb3991349ad91345ac22aecf2bf":{
+      "scriptId":"u268"},
+    "8437ae951e72474fb9d17f7cc69fcad2":{
+      "scriptId":"u269"},
+    "f25990d8c6304516a1a00c716de697dd":{
+      "scriptId":"u270"},
+    "5ecbf3b3851641f59a21dd470f90b62c":{
+      "scriptId":"u271"},
+    "cb2fd3b7144b424585273650578c6a2d":{
+      "scriptId":"u272"},
+    "ddb08ac12d0c413eadfabcaa70e3d55e":{
+      "scriptId":"u273"},
+    "ee388dc0b18d47f8b9182c215891e761":{
+      "scriptId":"u274"},
+    "6747b65178f74519ad71da262e45693d":{
+      "scriptId":"u275"},
+    "eaffdfa87267400592aeea7520d16556":{
+      "scriptId":"u276"},
+    "a352260557f74658b9b460a95402ab9b":{
+      "scriptId":"u277"},
+    "b86d4f82e6314343b16801106b067027":{
+      "scriptId":"u278"},
+    "6a6285b52cae4b9f87193a2709686280":{
+      "scriptId":"u279"},
+    "663556d941d14bf4865349dfc40b9309":{
+      "scriptId":"u280"},
+    "ab7ddc53ba2446a2abfd2d006354c259":{
+      "scriptId":"u281"},
+    "3a7d55bf9af849cba86e47f9fb38818d":{
+      "scriptId":"u282"},
+    "80da2cf905b44d1d98e4ec932ee0a790":{
+      "scriptId":"u283"},
+    "08a328cbfabf41689eda2498c8e8f9ac":{
+      "scriptId":"u284"},
+    "6a07a5ea6dab4073a45730f45d7f4776":{
+      "scriptId":"u285"},
+    "a4f9455247bc4f1bab4fe97906e4ff63":{
+      "scriptId":"u286"},
+    "86c11d5242d34805875a8139fdc8e5f7":{
+      "scriptId":"u287"},
+    "bd4eef7659994f87958496178ab2d5ff":{
+      "scriptId":"u288"},
+    "cfde11428ec04df09bcf6056736ee56d":{
+      "scriptId":"u289"},
+    "66d00369e3414c2b965eda3cd8753d76":{
+      "scriptId":"u290"},
+    "62af490ce7c94355a1337592ec47bc44":{
+      "scriptId":"u291"},
+    "0501ebc6af174c0aa406160216619fe4":{
+      "scriptId":"u292"},
+    "53175eaded7e446aa343fbcee9f1a536":{
+      "scriptId":"u293"},
+    "732290f5bd674a11b2ab483dce2ede0d":{
+      "scriptId":"u294"},
+    "545062ac446c49ccb18bb99a5c1a7173":{
+      "scriptId":"u295"},
+    "58ac07d17796423fa6f4e6ff46daf0e3":{
+      "scriptId":"u296"},
+    "242501bd20a74b1fac7b676e3cfc1322":{
+      "scriptId":"u297"},
+    "642b00a68d2f40ddad095bb00eb82483":{
+      "scriptId":"u298"},
+    "79ceec8d44db47f794f4c450b1272538":{
+      "scriptId":"u299"},
+    "0ca74e8b07c04fc69d238d5fd60f0db2":{
+      "scriptId":"u300"},
+    "4d79db1b24bf45038b3b40da6d830249":{
+      "scriptId":"u301"},
+    "a761ef2fd731402290ec138d73cc38eb":{
+      "scriptId":"u302"},
+    "e020887e605441b19d91c8c49e329659":{
+      "scriptId":"u303"},
+    "35134add8ef74f96b9646a1a4f45cad9":{
+      "scriptId":"u304"},
+    "a2c996669ae64375a40e2ca8f7a30bcc":{
+      "scriptId":"u305"},
+    "da890788f9014f8fb3b83ef1fe3f78eb":{
+      "scriptId":"u306"},
+    "9e828b322749413a9d97bad68471f81f":{
+      "scriptId":"u307"},
+    "a1f24c697d9e4179b979897349f8a2b8":{
+      "scriptId":"u308"},
+    "b317de516e1e4b719232f2e5fb51d24e":{
+      "scriptId":"u309"}}});
